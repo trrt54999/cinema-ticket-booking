@@ -2,7 +2,7 @@ package com.batko.cinematicketbooking.domain.enums;
 
 public enum TicketStatus {
 
-  PENDING("pending"),
+  BOOKED("booked"),
   CANCELED("canceled");
 
   private final String statusName;

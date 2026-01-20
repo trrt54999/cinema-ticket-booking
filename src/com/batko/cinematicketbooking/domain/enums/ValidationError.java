@@ -21,6 +21,7 @@ public enum ValidationError {
   MOVIE_MANAGER_REQUIRED("Manager ID is required!"),
 
   SEAT_HALL_REQUIRED("Hall ID is required!"),
+  SEAT_TYPE_REQUIRED("Seat type is required!"),
   SEAT_ROW_INVALID("Rows must be greater than 0 and less than 24!"),
   SEAT_NUMBER_INVALID("Seats per row must be greater than 0 and less than 32!"),
   SEAT_OUT_OF_BOUNDS("Seat is outside of hall capacity!"),

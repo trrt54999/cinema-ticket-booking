@@ -1,6 +1,7 @@
 package com.batko.cinematicketbooking.domain.impl;
 
 import com.batko.cinematicketbooking.domain.BaseEntity;
+import com.batko.cinematicketbooking.domain.enums.SeatType;
 import com.batko.cinematicketbooking.domain.enums.ValidationError;
 import com.batko.cinematicketbooking.domain.exception.EntityValidationException;
 import java.util.UUID;
@@ -10,8 +11,10 @@ public class Seat extends BaseEntity {
   private static final String HALL_ID = "hallId";
   private static final String NUMBER = "number";
   private static final String ROW = "row";
+  private static final String SEAT_TYPE = "seatType";
 
   private UUID hallId;
+  private SeatType seatType;
   private int number;
   private int row;
 
@@ -19,9 +22,10 @@ public class Seat extends BaseEntity {
     super();
   }
 
-  public Seat(UUID hallId, int row, int number, Hall hall) {
+  public Seat(UUID hallId, SeatType seatType, int row, int number, Hall hall) {
     this();
     setHallId(hallId);
+    setSeatType(seatType);
     validateHallMatch(hallId, hall);
     validateSeatCoordinates(row, number, hall);
 
@@ -76,5 +80,17 @@ public class Seat extends BaseEntity {
 
   public int getRow() {
     return row;
+  }
+
+  public SeatType getSeatType() {
+    return seatType;
+  }
+
+  public void setSeatType(SeatType seatType) {
+    clearError(SEAT_TYPE);
+    if (seatType == null) {
+      addError(SEAT_TYPE, ValidationError.SEAT_TYPE_REQUIRED.getMessage());
+    }
+    this.seatType = seatType;
   }
 }

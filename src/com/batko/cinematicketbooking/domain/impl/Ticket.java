@@ -29,7 +29,7 @@ public class Ticket extends BaseEntity {
     setSessionId(sessionId);
     setSeatId(seatId);
 
-    this.status = TicketStatus.PENDING;
+    this.status = TicketStatus.BOOKED;
     this.purchaseDate = LocalDateTime.now();
 
     if (!isValid()) {
