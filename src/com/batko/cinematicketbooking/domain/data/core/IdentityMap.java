@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.domain.data;
+package com.batko.cinematicketbooking.domain.data.core;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.domain.data;
+package com.batko.cinematicketbooking.domain.data.repository;
 
 import java.util.List;
 import java.util.Optional;

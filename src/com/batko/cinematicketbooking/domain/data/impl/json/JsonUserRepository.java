@@ -1,5 +1,6 @@
-package com.batko.cinematicketbooking.domain.data;
+package com.batko.cinematicketbooking.domain.data.impl.json;
 
+import com.batko.cinematicketbooking.domain.data.repository.UserRepository;
 import com.batko.cinematicketbooking.domain.enums.UserRole;
 import com.batko.cinematicketbooking.domain.model.User;
 import com.google.gson.reflect.TypeToken;
@@ -13,8 +14,7 @@ public class JsonUserRepository extends CachedJsonRepository<User> implements Us
     super(
         filename,
         new TypeToken<ArrayList<User>>() {
-        }.getType(),
-        User::getId
+        }.getType()
     );
   }
 

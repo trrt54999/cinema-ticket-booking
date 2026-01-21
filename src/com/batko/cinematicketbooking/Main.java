@@ -1,7 +1,8 @@
 package com.batko.cinematicketbooking;
 
-import com.batko.cinematicketbooking.domain.data.JsonUserRepository;
-import com.batko.cinematicketbooking.domain.data.UnitOfWork;
+import com.batko.cinematicketbooking.domain.data.core.DataContext;
+import com.batko.cinematicketbooking.domain.data.core.UnitOfWork;
+import com.batko.cinematicketbooking.domain.data.repository.UserRepository;
 import com.batko.cinematicketbooking.domain.enums.UserRole;
 import com.batko.cinematicketbooking.domain.model.User;
 
@@ -10,8 +11,8 @@ public class Main {
   static void main(String[] args) {
     System.out.println("Hello world");
 
-    JsonUserRepository userRepo = new JsonUserRepository("users.json");
-    UnitOfWork<User> userUoW = new UnitOfWork<>(userRepo, User::getId);
+    UserRepository userRepo = DataContext.getUserRepository();
+    UnitOfWork<User> userUoW = new UnitOfWork<>(userRepo);
 
     User u2 = new User("Lesyawe", "Ukrainka", "lesya@test.com", "pass", 28, UserRole.USER);
     User u3 = new User("Lesyawqe", "Ukrainka", "admin@test.com", "pass", 28, UserRole.USER);

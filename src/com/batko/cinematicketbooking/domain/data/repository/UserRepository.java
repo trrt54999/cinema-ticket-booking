@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.domain.data;
+package com.batko.cinematicketbooking.domain.data.repository;
 
 import com.batko.cinematicketbooking.domain.enums.UserRole;
 import com.batko.cinematicketbooking.domain.model.User;

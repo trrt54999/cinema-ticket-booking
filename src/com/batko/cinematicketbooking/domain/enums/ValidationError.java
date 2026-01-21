@@ -2,9 +2,9 @@ package com.batko.cinematicketbooking.domain.enums;
 
 public enum ValidationError {
   FIRST_NAME_EMPTY("First name cannot be empty!"),
-  FIRST_NAME_LENGTH("First name must be between 6 and 35 characters"),
+  FIRST_NAME_LENGTH("First name must be between 3 and 35 characters"),
   LAST_NAME_EMPTY("Last name cannot be empty!"),
-  LAST_NAME_LENGTH("Last name must be between 6 and 40 characters"),
+  LAST_NAME_LENGTH("Last name must be between 3 and 40 characters"),
   EMAIL_EMPTY("Email cannot be empty!"),
   EMAIL_INVALID("Email is not valid!"),
   PASSWORD_EMPTY("Password cannot be empty!"),

@@ -26,6 +26,14 @@ public class MovieGenre extends BaseEntity {
     }
   }
 
+  public UUID getMovieId() {
+    return movieId;
+  }
+
+  public UUID getGenreId() {
+    return genreId;
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) {

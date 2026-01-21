@@ -11,6 +11,8 @@ public abstract class BaseEntity implements Entity {
   private final UUID id;
 
   protected Map<String, List<String>> errors;
+  // todo спитати за це, бо protected transient Map<String, List<String>> errors;
+  // (щоб в json не ліз)
 
   protected BaseEntity() {
     this.id = UUID.randomUUID();
