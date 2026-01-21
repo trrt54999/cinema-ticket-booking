@@ -1,6 +1,6 @@
 package com.batko.cinematicketbooking.domain.comparator;
 
-import com.batko.cinematicketbooking.domain.impl.User;
+import com.batko.cinematicketbooking.domain.model.User;
 import java.util.Comparator;
 
 public class UserFullNameComparator implements Comparator<User> {

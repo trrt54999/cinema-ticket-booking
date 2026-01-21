@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.domain.impl;
+package com.batko.cinematicketbooking.domain.model;
 
 import com.batko.cinematicketbooking.domain.BaseEntity;
 import com.batko.cinematicketbooking.domain.enums.ValidationError;
