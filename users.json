@@ -1,22 +1,12 @@
 [
   {
-    "firstName": "Ivanwe",
-    "lastName": "Franko",
-    "email": "ivan@test.com",
-    "passwordHash": "pass",
-    "age": 30,
-    "role": "USER",
-    "id": "250e36ef-c61a-4882-9332-23a9b1665d26",
-    "errors": {}
-  },
-  {
     "firstName": "Lesyawe",
     "lastName": "Ukrainka",
     "email": "lesya@test.com",
     "passwordHash": "pass",
     "age": 28,
     "role": "USER",
-    "id": "0605bc4a-1257-4a0e-8432-80a354a3ebd0",
+    "id": "612385d6-44ae-414f-b92a-b1d1f2d65124",
     "errors": {}
   },
   {
@@ -24,29 +14,9 @@
     "lastName": "Ukrainka",
     "email": "admin@test.com",
     "passwordHash": "pass",
-    "age": 99,
-    "role": "USER",
-    "id": "e224cc80-7dab-492c-9922-61ebeff48ffa",
-    "errors": {}
-  },
-  {
-    "firstName": "Lesyawe",
-    "lastName": "Ukrainka",
-    "email": "lesya@test.com",
-    "passwordHash": "pass",
     "age": 28,
     "role": "USER",
-    "id": "bc51e2e7-cc75-4283-8841-972a9d9bbd79",
-    "errors": {}
-  },
-  {
-    "firstName": "Lesyawqe",
-    "lastName": "Ukrainka",
-    "email": "admin@test.com",
-    "passwordHash": "pass",
-    "age": 99,
-    "role": "USER",
-    "id": "ddce472e-9645-4f01-9e94-7b8d8bd3692e",
+    "id": "0a3a2471-96d9-4867-9363-b73b8e9af49c",
     "errors": {}
   }
 ]
