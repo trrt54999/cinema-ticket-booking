@@ -1,6 +1,10 @@
-package com.batko.cinematicketbooking.domain.data;
+package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
-import com.batko.cinematicketbooking.domain.exception.RepositoryException;
+import com.batko.cinematicketbooking.domain.Entity;
+import com.batko.cinematicketbooking.infrastructure.data.adapter.LocalDateTimeAdapter;
+import com.batko.cinematicketbooking.infrastructure.data.core.IdentityMap;
+import com.batko.cinematicketbooking.infrastructure.data.exception.StorageException;
+import com.batko.cinematicketbooking.infrastructure.data.repository.Repository;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.FileReader;
@@ -11,30 +15,28 @@ import java.io.Writer;
 import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
-import java.util.function.Function;
 import java.util.function.Predicate;
 
-public abstract class CachedJsonRepository<T> implements Repository<T> {
+public abstract class CachedJsonRepository<T extends Entity> implements Repository<T> {
 
   protected final Path filePath;
   protected final Gson gson;
   protected final Type listType;
-  protected final Function<T, UUID> idExtractor;
-
   protected final IdentityMap<T> identityMap = new IdentityMap<>();
 
   private boolean cacheValid = false;
   private List<T> cachedList = null;
-
-  protected CachedJsonRepository(String filename, Type listType, Function<T, UUID> idExtractor) {
+  
+  protected CachedJsonRepository(String filename, Type listType) {
     this.filePath = Path.of(filename);
     this.listType = listType;
-    this.idExtractor = idExtractor;
     this.gson = new GsonBuilder()
+        .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeAdapter())
         .setPrettyPrinting()
         .serializeNulls()
         .create();
@@ -47,15 +49,14 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
       try {
         Files.createDirectories(parent);
       } catch (IOException e) {
-        throw new RuntimeException("Cannot create directory: " + parent, e);
+        throw new StorageException("Cannot create directory: " + parent, e);
       }
     }
   }
 
   @Override
   public T save(T entity) {
-    UUID id = idExtractor.apply(entity);
-
+    UUID id = entity.getId();
     identityMap.put(id, entity);
     invalidateCache();
 
@@ -63,7 +64,7 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
 
     boolean found = false;
     for (int i = 0; i < entities.size(); i++) {
-      if (idExtractor.apply(entities.get(i)).equals(id)) {
+      if (entities.get(i).getId().equals(id)) {
         entities.set(i, entity);
         found = true;
         break;
@@ -86,7 +87,7 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
     }
 
     Optional<T> found = findAllInternal().stream()
-        .filter(entity -> idExtractor.apply(entity).equals(id))
+        .filter(entity -> entity.getId().equals(id))
         .findFirst();
 
     found.ifPresent(entity -> identityMap.put(id, entity));
@@ -105,9 +106,7 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
     invalidateCache();
 
     List<T> entities = loadFromFile();
-    boolean removed = entities.removeIf(entity ->
-        idExtractor.apply(entity).equals(id)
-    );
+    boolean removed = entities.removeIf(entity -> entity.getId().equals(id));
 
     if (removed) {
       writeToFile(entities);
@@ -117,7 +116,7 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
 
   @Override
   public boolean delete(T entity) {
-    return deleteById(idExtractor.apply(entity));
+    return deleteById(entity.getId());
   }
 
   @Override
@@ -161,7 +160,7 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
     cacheValid = true;
 
     for (T entity : cachedList) {
-      UUID id = idExtractor.apply(entity);
+      UUID id = entity.getId();
       if (!identityMap.contains(id)) {
         identityMap.put(id, entity);
       }
@@ -179,7 +178,7 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
       List<T> entities = gson.fromJson(reader, listType);
       return entities != null ? new ArrayList<>(entities) : new ArrayList<>();
     } catch (IOException e) {
-      throw new RepositoryException("Error with reading: " + filePath, e);
+      throw new StorageException("Error with reading: " + filePath, e);
     }
   }
 
@@ -187,7 +186,7 @@ public abstract class CachedJsonRepository<T> implements Repository<T> {
     try (Writer writer = new FileWriter(filePath.toFile())) {
       gson.toJson(entities, writer);
     } catch (IOException e) {
-      throw new RepositoryException("Error with writing in file: " + filePath, e);
+      throw new StorageException("Error with writing in file: " + filePath, e);
     }
   }
 }

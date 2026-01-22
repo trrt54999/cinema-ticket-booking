@@ -48,7 +48,7 @@ public class User extends BaseEntity implements Comparable<User> {
     clearError(FIRST_NAME);
     if (firstName == null || firstName.trim().isBlank()) {
       addError(FIRST_NAME, ValidationError.FIRST_NAME_EMPTY.getMessage());
-    } else if (firstName.length() < 6 || firstName.length() > 35) {
+    } else if (firstName.length() < 3 || firstName.length() > 35) {
       addError(FIRST_NAME, ValidationError.FIRST_NAME_LENGTH.getMessage());
     }
     this.firstName = firstName;
@@ -62,7 +62,7 @@ public class User extends BaseEntity implements Comparable<User> {
     clearError(LAST_NAME);
     if (lastName == null || lastName.trim().isBlank()) {
       addError(LAST_NAME, ValidationError.LAST_NAME_EMPTY.getMessage());
-    } else if (lastName.length() < 6 || lastName.length() > 40) {
+    } else if (lastName.length() < 3 || lastName.length() > 40) {
       addError(LAST_NAME, ValidationError.LAST_NAME_LENGTH.getMessage());
     }
     this.lastName = lastName;

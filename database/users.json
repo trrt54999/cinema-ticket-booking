@@ -6,8 +6,7 @@
     "passwordHash": "pass",
     "age": 28,
     "role": "USER",
-    "id": "612385d6-44ae-414f-b92a-b1d1f2d65124",
-    "errors": {}
+    "id": "ebae14e6-34fe-4b8c-a7d2-ee132bdd3ed7"
   },
   {
     "firstName": "Lesyawqe",
@@ -16,7 +15,6 @@
     "passwordHash": "pass",
     "age": 28,
     "role": "USER",
-    "id": "0a3a2471-96d9-4867-9363-b73b8e9af49c",
-    "errors": {}
+    "id": "230bde80-d328-4ab9-bf0d-a83b89e19374"
   }
 ]

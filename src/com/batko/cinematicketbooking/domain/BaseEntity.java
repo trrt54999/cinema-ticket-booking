@@ -10,7 +10,8 @@ public abstract class BaseEntity implements Entity {
 
   private final UUID id;
 
-  protected Map<String, List<String>> errors;
+  // поки зроблю transient щоб в json не йшли errors, а потім вирішу залишити чи ні
+  protected transient Map<String, List<String>> errors;
 
   protected BaseEntity() {
     this.id = UUID.randomUUID();

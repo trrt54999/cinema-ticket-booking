@@ -1,7 +1,8 @@
-package com.batko.cinematicketbooking.domain.data;
+package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
 import com.batko.cinematicketbooking.domain.enums.UserRole;
 import com.batko.cinematicketbooking.domain.model.User;
+import com.batko.cinematicketbooking.infrastructure.data.repository.UserRepository;
 import com.google.gson.reflect.TypeToken;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,12 +10,11 @@ import java.util.Optional;
 
 public class JsonUserRepository extends CachedJsonRepository<User> implements UserRepository {
 
-  public JsonUserRepository(String filename) {
+  JsonUserRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<User>>() {
-        }.getType(),
-        User::getId
+        }.getType()
     );
   }
 
