@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.domain.exception;
+package com.batko.cinematicketbooking.infrastructure.data.exception;
 
 public class RepositoryException extends RuntimeException {
 

@@ -1,7 +1,7 @@
-package com.batko.cinematicketbooking.domain.data.impl.json;
+package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
-import com.batko.cinematicketbooking.domain.data.repository.SeatRepository;
 import com.batko.cinematicketbooking.domain.model.Seat;
+import com.batko.cinematicketbooking.infrastructure.data.repository.SeatRepository;
 import com.google.gson.reflect.TypeToken;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,12 +10,28 @@ import java.util.UUID;
 
 public class SeatJsonRepository extends CachedJsonRepository<Seat> implements SeatRepository {
 
-  public SeatJsonRepository(String filename) {
+  SeatJsonRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<Seat>>() {
         }.getType()
     );
+  }
+
+  @Override
+  public void deleteByHallId(UUID hallId) {
+    List<Seat> allSeats = new ArrayList<>(findAllInternal());
+
+    allSeats.stream()
+        .filter(seat -> seat.getHallId().equals(hallId))
+        .forEach(seat -> identityMap.remove(seat.getId()));
+
+    boolean removed = allSeats.removeIf(seat -> seat.getHallId().equals(hallId));
+
+    if (removed) {
+      writeToFile(allSeats);
+      invalidateCache();
+    }
   }
 
   @Override

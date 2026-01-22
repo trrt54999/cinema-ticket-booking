@@ -1,7 +1,7 @@
-package com.batko.cinematicketbooking.domain.data.impl.json;
+package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
-import com.batko.cinematicketbooking.domain.data.repository.TicketRepository;
 import com.batko.cinematicketbooking.domain.model.Ticket;
+import com.batko.cinematicketbooking.infrastructure.data.repository.TicketRepository;
 import com.google.gson.reflect.TypeToken;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public class TicketJsonRepository extends CachedJsonRepository<Ticket> implements TicketRepository {
 
-  public TicketJsonRepository(String filename) {
+  TicketJsonRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<Ticket>>() {

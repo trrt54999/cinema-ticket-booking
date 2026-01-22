@@ -1,7 +1,7 @@
-package com.batko.cinematicketbooking.domain.data.impl.json;
+package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
-import com.batko.cinematicketbooking.domain.data.repository.SessionRepository;
 import com.batko.cinematicketbooking.domain.model.Session;
+import com.batko.cinematicketbooking.infrastructure.data.repository.SessionRepository;
 import com.google.gson.reflect.TypeToken;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.UUID;
 public class SessionJsonRepository extends CachedJsonRepository<Session> implements
     SessionRepository {
 
-  public SessionJsonRepository(String filename) {
+  SessionJsonRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<Session>>() {

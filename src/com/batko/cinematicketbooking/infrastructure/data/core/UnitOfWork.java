@@ -1,7 +1,7 @@
-package com.batko.cinematicketbooking.domain.data.core;
+package com.batko.cinematicketbooking.infrastructure.data.core;
 
 import com.batko.cinematicketbooking.domain.Entity;
-import com.batko.cinematicketbooking.domain.data.repository.Repository;
+import com.batko.cinematicketbooking.infrastructure.data.repository.Repository;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.UUID;

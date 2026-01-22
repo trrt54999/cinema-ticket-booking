@@ -1,14 +1,14 @@
-package com.batko.cinematicketbooking.domain.data.impl.json;
+package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
-import com.batko.cinematicketbooking.domain.data.repository.GenreRepository;
 import com.batko.cinematicketbooking.domain.model.Genre;
+import com.batko.cinematicketbooking.infrastructure.data.repository.GenreRepository;
 import com.google.gson.reflect.TypeToken;
 import java.util.ArrayList;
 import java.util.Optional;
 
 public class JsonGenreRepository extends CachedJsonRepository<Genre> implements GenreRepository {
 
-  public JsonGenreRepository(String filename) {
+  JsonGenreRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<Genre>>() {

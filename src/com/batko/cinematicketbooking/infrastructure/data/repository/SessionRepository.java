@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.domain.data.repository;
+package com.batko.cinematicketbooking.infrastructure.data.repository;
 
 import com.batko.cinematicketbooking.domain.model.Session;
 import java.time.LocalDateTime;

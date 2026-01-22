@@ -1,7 +1,7 @@
-package com.batko.cinematicketbooking.domain.data.impl.json;
+package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
-import com.batko.cinematicketbooking.domain.data.repository.MovieGenreRepository;
 import com.batko.cinematicketbooking.domain.model.MovieGenre;
+import com.batko.cinematicketbooking.infrastructure.data.repository.MovieGenreRepository;
 import com.google.gson.reflect.TypeToken;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.UUID;
 public class JsonMovieGenreRepository extends CachedJsonRepository<MovieGenre> implements
     MovieGenreRepository {
 
-  public JsonMovieGenreRepository(String filename) {
+  JsonMovieGenreRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<MovieGenre>>() {

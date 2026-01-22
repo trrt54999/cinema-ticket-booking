@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.domain.data.core;
+package com.batko.cinematicketbooking.infrastructure.data.core;
 
 import java.io.File;
 

@@ -1,11 +1,12 @@
-package com.batko.cinematicketbooking.domain.data.core;
+package com.batko.cinematicketbooking.infrastructure.data.core;
 
+import com.batko.cinematicketbooking.domain.Entity;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 
-public class IdentityMap<T> {
+public class IdentityMap<T extends Entity> {
 
   private final Map<UUID, T> cache = new HashMap<>();
 
