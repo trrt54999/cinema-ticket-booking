@@ -29,9 +29,10 @@ public abstract class CachedJsonRepository<T extends Entity> implements Reposito
   protected final Type listType;
   protected final IdentityMap<T> identityMap = new IdentityMap<>();
 
+  private boolean isDirty = false;
   private boolean cacheValid = false;
   private List<T> cachedList = null;
-  
+
   protected CachedJsonRepository(String filename, Type listType) {
     this.filePath = Path.of(filename);
     this.listType = listType;
@@ -58,9 +59,8 @@ public abstract class CachedJsonRepository<T extends Entity> implements Reposito
   public T save(T entity) {
     UUID id = entity.getId();
     identityMap.put(id, entity);
-    invalidateCache();
 
-    List<T> entities = loadFromFile();
+    List<T> entities = findAllInternal();
 
     boolean found = false;
     for (int i = 0; i < entities.size(); i++) {
@@ -75,7 +75,8 @@ public abstract class CachedJsonRepository<T extends Entity> implements Reposito
       entities.add(entity);
     }
 
-    writeToFile(entities);
+    isDirty = true;
+
     return entity;
   }
 
@@ -103,15 +104,22 @@ public abstract class CachedJsonRepository<T extends Entity> implements Reposito
   @Override
   public boolean deleteById(UUID id) {
     identityMap.remove(id);
-    invalidateCache();
 
-    List<T> entities = loadFromFile();
+    List<T> entities = findAllInternal();
     boolean removed = entities.removeIf(entity -> entity.getId().equals(id));
 
     if (removed) {
-      writeToFile(entities);
+      isDirty = true;
     }
     return removed;
+  }
+
+  @Override
+  public void saveChanges() {
+    if (isDirty && cachedList != null) {
+      writeToFile(cachedList);
+      isDirty = false;
+    }
   }
 
   @Override
@@ -132,6 +140,7 @@ public abstract class CachedJsonRepository<T extends Entity> implements Reposito
   protected void invalidateCache() {
     cacheValid = false;
     cachedList = null;
+    isDirty = false;
   }
 
   public void clearCache() {
@@ -158,6 +167,7 @@ public abstract class CachedJsonRepository<T extends Entity> implements Reposito
 
     cachedList = loadFromFile();
     cacheValid = true;
+    isDirty = false;
 
     for (T entity : cachedList) {
       UUID id = entity.getId();

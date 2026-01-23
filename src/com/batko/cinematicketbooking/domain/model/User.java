@@ -100,7 +100,7 @@ public class User extends BaseEntity implements Comparable<User> {
 
   public void setAge(int age) {
     clearError(AGE);
-    if (age < 1 || age > 110) {
+    if (age < 0 || age > 110) {
       addError(AGE, ValidationError.AGE_INVALID.getMessage());
     }
     this.age = age;

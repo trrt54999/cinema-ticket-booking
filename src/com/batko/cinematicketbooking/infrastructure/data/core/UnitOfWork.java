@@ -52,6 +52,7 @@ public class UnitOfWork<T extends Entity> {
     for (UUID id : deletedIds) {
       repository.deleteById(id);
     }
+    repository.saveChanges();
 
     clear();
   }
