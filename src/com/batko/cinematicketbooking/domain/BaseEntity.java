@@ -1,5 +1,6 @@
 package com.batko.cinematicketbooking.domain;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,13 +10,28 @@ import java.util.UUID;
 public abstract class BaseEntity implements Entity {
 
   private final UUID id;
-
-  // поки зроблю transient щоб в json не йшли errors, а потім вирішу залишити чи ні
+  private final LocalDateTime createdAt;
+  // поки зроблю transient, щоб в json не йшли errors, а потім вирішу залишити чи ні
   protected transient Map<String, List<String>> errors;
+  private LocalDateTime updatedAt;
 
   protected BaseEntity() {
     this.id = UUID.randomUUID();
+    this.createdAt = LocalDateTime.now();
+    this.updatedAt = LocalDateTime.now();
     this.errors = new HashMap<>();
+  }
+
+  protected void updateTimestamp() {
+    this.updatedAt = LocalDateTime.now();
+  }
+
+  public LocalDateTime getCreatedAt() {
+    return createdAt;
+  }
+
+  public LocalDateTime getUpdatedAt() {
+    return updatedAt;
   }
 
   protected void addError(String field, String message) {

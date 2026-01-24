@@ -20,4 +20,6 @@ public interface Repository<T extends Entity> {
   boolean existsById(UUID id);
 
   long count();
+
+  void saveChanges();
 }

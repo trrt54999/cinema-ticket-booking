@@ -8,7 +8,7 @@ public enum ValidationError {
   EMAIL_EMPTY("Email cannot be empty!"),
   EMAIL_INVALID("Email is not valid!"),
   PASSWORD_EMPTY("Password cannot be empty!"),
-  AGE_INVALID("Age is not valid!"),
+  AGE_INVALID("Age cannot be negative!"),
   ROLE_EMPTY("Role cannot be empty!"),
 
   HALL_NAME_EMPTY("Hall name cannot be empty!"),
