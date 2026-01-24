@@ -2,7 +2,6 @@ package com.batko.cinematicketbooking.service.dto.hall;
 
 public record HallStoreDto(String name, int rows, int seatsPerRow) {
 
-  // todo те саме з >=
   public HallStoreDto {
     if (name == null || name.trim().isBlank()) {
       throw new IllegalArgumentException("Hall name is required");

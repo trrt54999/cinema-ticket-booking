@@ -5,7 +5,6 @@ import java.util.UUID;
 
 public record SeatStoreDto(UUID hallId, int row, int number, SeatType seatType) {
 
-  // todo у нас ще >= також мають бути обмеження
   public SeatStoreDto {
     if (hallId == null) {
       throw new IllegalArgumentException("Hall ID is required");

@@ -5,7 +5,9 @@ import com.batko.cinematicketbooking.service.dto.user.UserStoreDto;
 
 public interface AuthService {
 
-  void register(UserStoreDto dto);
+  void initiateRegistration(UserStoreDto dto);
+
+  void confirmRegistration(String email, String code);
 
   User login(String email, String password);
 }
