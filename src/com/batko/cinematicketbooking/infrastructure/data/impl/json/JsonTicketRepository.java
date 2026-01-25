@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class TicketJsonRepository extends CachedJsonRepository<Ticket> implements TicketRepository {
+public class JsonTicketRepository extends CachedJsonRepository<Ticket> implements TicketRepository {
 
-  TicketJsonRepository(String filename) {
+  JsonTicketRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<Ticket>>() {

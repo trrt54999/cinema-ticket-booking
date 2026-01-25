@@ -68,12 +68,13 @@ public class MovieServiceImpl implements MovieService {
       isDirty = true;
     }
 
-    if (dto.description() != null) {
+    if (dto.description() != null && !dto.description().equals(movie.getDescription())) {
       movie.setDescription(dto.description());
       isDirty = true;
     }
 
-    if (dto.durationMinutes() != null) {
+    if (dto.durationMinutes() != null && !dto.durationMinutes()
+        .equals(movie.getDurationMinutes())) {
       movie.setDurationMinutes(dto.durationMinutes());
       isDirty = true;
     }

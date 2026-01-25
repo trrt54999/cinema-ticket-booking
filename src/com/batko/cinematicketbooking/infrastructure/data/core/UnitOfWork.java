@@ -61,11 +61,6 @@ public class UnitOfWork<T extends Entity> {
     clear();
   }
 
-  public void clear() {
-    newEntities.clear();
-    dirtyEntities.clear();
-    deletedIds.clear();
-  }
 
   public boolean hasChanges() {
     return !newEntities.isEmpty() || !dirtyEntities.isEmpty() || !deletedIds.isEmpty();
@@ -78,5 +73,11 @@ public class UnitOfWork<T extends Entity> {
         dirtyEntities.size(),
         deletedIds.size()
     );
+  }
+
+  private void clear() {
+    newEntities.clear();
+    dirtyEntities.clear();
+    deletedIds.clear();
   }
 }

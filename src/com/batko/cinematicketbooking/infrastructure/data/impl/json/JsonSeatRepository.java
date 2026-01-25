@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-public class SeatJsonRepository extends CachedJsonRepository<Seat> implements SeatRepository {
+public class JsonSeatRepository extends CachedJsonRepository<Seat> implements SeatRepository {
 
-  SeatJsonRepository(String filename) {
+  JsonSeatRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<Seat>>() {

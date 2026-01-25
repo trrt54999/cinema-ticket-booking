@@ -44,11 +44,11 @@ public class SessionServiceImpl implements SessionService {
     Session session = getById(sessionId);
     boolean isDirty = false;
 
-    if (dto.hallId() != null) {
+    if (dto.hallId() != null && !dto.hallId().equals(session.getHallId())) {
       session.setHallId(dto.hallId());
       isDirty = true;
     }
-    if (dto.price() != null) {
+    if (dto.price() != null && !dto.price().equals(session.getPrice())) {
       session.setPrice(dto.price());
       isDirty = true;
     }

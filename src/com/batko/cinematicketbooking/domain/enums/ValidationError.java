@@ -8,7 +8,8 @@ public enum ValidationError {
   EMAIL_EMPTY("Email cannot be empty!"),
   EMAIL_INVALID("Email is not valid!"),
   PASSWORD_EMPTY("Password cannot be empty!"),
-  AGE_INVALID("Age cannot be negative!"),
+  PASSWORD_LENGTH("Password must be at least 6 characters long"),
+  AGE_INVALID("Age must be between 0 and 110"),
   ROLE_EMPTY("Role cannot be empty!"),
 
   HALL_NAME_EMPTY("Hall name cannot be empty!"),
@@ -16,14 +17,15 @@ public enum ValidationError {
   HALL_SEATS_PER_ROW_INVALID("Seats per row must be greater than 0 and less than 32!"),
 
   MOVIE_TITLE_EMPTY("Movie title cannot be empty!"),
+  MOVIE_GENRE_EMPTY("Genre list cannot be null"),
   MOVIE_DESCRIPTION_EMPTY("Movie description cannot be empty!"),
   MOVIE_DURATION_INVALID("Duration must be greater than 0 and less than 1440 minutes!"),
   MOVIE_MANAGER_REQUIRED("Manager ID is required!"),
 
   SEAT_HALL_REQUIRED("Hall ID is required!"),
   SEAT_TYPE_REQUIRED("Seat type is required!"),
-  SEAT_ROW_INVALID("Rows must be greater than 0 and less than 24!"),
-  SEAT_NUMBER_INVALID("Seats per row must be greater than 0 and less than 32!"),
+  SEAT_ROW_INVALID("Row number must be positive!"),
+  SEAT_NUMBER_INVALID("Seat number must be positive!"),
   SEAT_OUT_OF_BOUNDS("Seat is outside of hall capacity!"),
   SEAT_HALL_MISMATCH("Provided Hall ID does not match the Hall object!"),
 
@@ -38,7 +40,12 @@ public enum ValidationError {
   TICKET_SESSION_REQUIRED("Session ID is required!"),
   TICKET_SEAT_REQUIRED("Seat ID is required!"),
 
-  GENRE_NAME_EMPTY("Genre name cannot be empty!");
+  MOVIE_GENRE_MOVIE_REQUIRED("Movie ID is required!"),
+  MOVIE_GENRE_GENRE_REQUIRED("Genre ID is required!"),
+
+  GENRE_NAME_EMPTY("Genre name cannot be empty!"),
+
+  VALIDATION_CODE_EMPTY("Verification code cannot be empty");
 
   private final String message;
 

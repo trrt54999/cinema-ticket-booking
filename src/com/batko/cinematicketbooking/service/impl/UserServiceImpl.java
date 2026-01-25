@@ -24,15 +24,15 @@ public class UserServiceImpl implements UserService {
 
     boolean isDirty = false;
 
-    if (dto.firstName() != null) {
+    if (dto.firstName() != null && !dto.firstName().equals(user.getFirstName())) {
       user.setFirstName(dto.firstName());
       isDirty = true;
     }
-    if (dto.lastName() != null) {
+    if (dto.lastName() != null && !dto.lastName().equals(user.getLastName())) {
       user.setLastName(dto.lastName());
       isDirty = true;
     }
-    if (dto.age() > 0) {
+    if (dto.age() != null && !dto.age().equals(user.getAge())) {
       user.setAge(dto.age());
       isDirty = true;
     }

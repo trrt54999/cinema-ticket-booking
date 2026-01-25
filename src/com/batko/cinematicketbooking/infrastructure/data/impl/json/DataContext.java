@@ -11,76 +11,60 @@ import com.batko.cinematicketbooking.infrastructure.data.repository.TicketReposi
 import com.batko.cinematicketbooking.infrastructure.data.repository.UserRepository;
 
 public class DataContext {
-
-  private UserRepository userRepository;
-  private MovieRepository movieRepository;
-  private GenreRepository genreRepository;
-  private MovieGenreRepository movieGenreRepository;
-  private HallRepository hallRepository;
-  private SeatRepository seatRepository;
-  private SessionRepository sessionRepository;
-  private TicketRepository ticketRepository;
+  
+  private final UserRepository userRepository;
+  private final MovieRepository movieRepository;
+  private final GenreRepository genreRepository;
+  private final MovieGenreRepository movieGenreRepository;
+  private final HallRepository hallRepository;
+  private final SeatRepository seatRepository;
+  private final SessionRepository sessionRepository;
+  private final TicketRepository ticketRepository;
 
   private DataContext() {
+    this.userRepository = new JsonUserRepository(StorageConfig.USERS_FILE);
+    this.movieRepository = new JsonMovieRepository(StorageConfig.MOVIES_FILE);
+    this.genreRepository = new JsonGenreRepository(StorageConfig.GENRES_FILE);
+    this.movieGenreRepository = new JsonMovieGenreRepository(StorageConfig.MOVIE_GENRES_FILE);
+    this.hallRepository = new JsonHallRepository(StorageConfig.HALLS_FILE);
+    this.seatRepository = new JsonSeatRepository(StorageConfig.SEATS_FILE);
+    this.sessionRepository = new JsonSessionRepository(StorageConfig.SESSIONS_FILE);
+    this.ticketRepository = new JsonTicketRepository(StorageConfig.TICKETS_FILE);
   }
 
   public static DataContext getInstance() {
     return DataContextHolder.HOLDER_INSTANCE;
   }
 
-  public synchronized UserRepository getUserRepository() {
-    if (userRepository == null) {
-      userRepository = new JsonUserRepository(StorageConfig.USERS_FILE);
-    }
+  public UserRepository getUserRepository() {
     return userRepository;
   }
 
-  public synchronized MovieRepository getMovieRepository() {
-    if (movieRepository == null) {
-      movieRepository = new JsonMovieRepository(StorageConfig.MOVIES_FILE);
-    }
+  public MovieRepository getMovieRepository() {
     return movieRepository;
   }
 
-  public synchronized GenreRepository getGenreRepository() {
-    if (genreRepository == null) {
-      genreRepository = new JsonGenreRepository(StorageConfig.GENRES_FILE);
-    }
+  public GenreRepository getGenreRepository() {
     return genreRepository;
   }
 
-  public synchronized MovieGenreRepository getMovieGenreRepository() {
-    if (movieGenreRepository == null) {
-      movieGenreRepository = new JsonMovieGenreRepository(StorageConfig.MOVIE_GENRES_FILE);
-    }
+  public MovieGenreRepository getMovieGenreRepository() {
     return movieGenreRepository;
   }
 
-  public synchronized HallRepository getHallRepository() {
-    if (hallRepository == null) {
-      hallRepository = new JsonHallRepository(StorageConfig.HALLS_FILE);
-    }
+  public HallRepository getHallRepository() {
     return hallRepository;
   }
 
-  public synchronized SeatRepository getSeatRepository() {
-    if (seatRepository == null) {
-      seatRepository = new SeatJsonRepository(StorageConfig.SEATS_FILE);
-    }
+  public SeatRepository getSeatRepository() {
     return seatRepository;
   }
 
-  public synchronized SessionRepository getSessionRepository() {
-    if (sessionRepository == null) {
-      sessionRepository = new SessionJsonRepository(StorageConfig.SESSIONS_FILE);
-    }
+  public SessionRepository getSessionRepository() {
     return sessionRepository;
   }
 
-  public synchronized TicketRepository getTicketRepository() {
-    if (ticketRepository == null) {
-      ticketRepository = new TicketJsonRepository(StorageConfig.TICKETS_FILE);
-    }
+  public TicketRepository getTicketRepository() {
     return ticketRepository;
   }
 

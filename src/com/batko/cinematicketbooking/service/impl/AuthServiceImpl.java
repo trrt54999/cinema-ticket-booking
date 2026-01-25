@@ -6,13 +6,14 @@ import com.batko.cinematicketbooking.infrastructure.data.core.UnitOfWork;
 import com.batko.cinematicketbooking.infrastructure.data.repository.UserRepository;
 import com.batko.cinematicketbooking.infrastructure.email.EmailServiceImpl;
 import com.batko.cinematicketbooking.service.contract.AuthService;
+import com.batko.cinematicketbooking.service.dto.UserLoginDto;
+import com.batko.cinematicketbooking.service.dto.UserVerificationDto;
 import com.batko.cinematicketbooking.service.dto.user.UserStoreDto;
 import com.batko.cinematicketbooking.service.util.CodeGenerator;
 import com.batko.cinematicketbooking.service.util.EmailTemplate;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-// todo до кінця розібратися з цим вкладеним класом
 public class AuthServiceImpl implements AuthService {
 
   private final UserRepository userRepo;
@@ -43,34 +44,34 @@ public class AuthServiceImpl implements AuthService {
   }
 
   @Override
-  public void confirmRegistration(String email, String code) {
-    PendingRegistration pending = pendingUsers.get(email);
+  public void confirmRegistration(UserVerificationDto dto) {
+    PendingRegistration pending = pendingUsers.get(dto.email());
 
     if (pending == null) {
       throw new IllegalArgumentException("Registration session not found or expired.");
     }
 
-    if (pending.getVerificationCode().equals(code)) {
-      UserStoreDto dto = pending.getDto();
+    if (pending.getVerificationCode().equals(dto.verificationCode())) {
+      UserStoreDto storeDto = pending.getDto();
       User user = new User(
-          dto.firstName(),
-          dto.lastName(),
-          dto.email(),
-          dto.password(), // TODO: Додати хешування тут
-          dto.age(),
+          storeDto.firstName(),
+          storeDto.lastName(),
+          storeDto.email(),
+          storeDto.password(), // TODO: Додати хешування тут
+          storeDto.age(),
           UserRole.USER
       );
 
       userUoW.registerNew(user);
       userUoW.commit();
 
-      pendingUsers.remove(email);
+      pendingUsers.remove(dto.email());
 
     } else {
       pending.incrementAttempts();
 
       if (pending.getAttempts() >= 3) {
-        pendingUsers.remove(email);
+        pendingUsers.remove(dto.email());
         throw new IllegalArgumentException("Too many invalid attempts. Registration cancelled.");
       }
 
@@ -80,11 +81,11 @@ public class AuthServiceImpl implements AuthService {
   }
 
   @Override
-  public User login(String email, String password) {
-    User user = userRepo.findByEmail(email)
+  public User login(UserLoginDto dto) {
+    User user = userRepo.findByEmail(dto.email())
         .orElseThrow(() -> new IllegalArgumentException("User not found"));
 
-    if (!user.getPasswordHash().equals(password)) {
+    if (!user.getPasswordHash().equals(dto.password())) {
       throw new IllegalArgumentException("Invalid password");
     }
     return user;

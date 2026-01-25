@@ -8,10 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class SessionJsonRepository extends CachedJsonRepository<Session> implements
+public class JsonSessionRepository extends CachedJsonRepository<Session> implements
     SessionRepository {
 
-  SessionJsonRepository(String filename) {
+  JsonSessionRepository(String filename) {
     super(
         filename,
         new TypeToken<ArrayList<Session>>() {

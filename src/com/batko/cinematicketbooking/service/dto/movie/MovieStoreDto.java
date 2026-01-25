@@ -1,5 +1,6 @@
 package com.batko.cinematicketbooking.service.dto.movie;
 
+import com.batko.cinematicketbooking.domain.enums.ValidationError;
 import java.util.List;
 import java.util.UUID;
 
@@ -9,16 +10,19 @@ public record MovieStoreDto(String title, String description, int durationMinute
 
   public MovieStoreDto {
     if (title == null || title.isBlank()) {
-      throw new IllegalArgumentException("Title is required");
+      throw new IllegalArgumentException(ValidationError.MOVIE_TITLE_EMPTY.getMessage());
+    }
+    if (description == null || description.isBlank()) {
+      throw new IllegalArgumentException(ValidationError.MOVIE_DESCRIPTION_EMPTY.getMessage());
+    }
+    if (durationMinutes <= 0 || durationMinutes > 1440) {
+      throw new IllegalArgumentException(ValidationError.MOVIE_DURATION_INVALID.getMessage());
     }
     if (managerId == null) {
-      throw new IllegalArgumentException("Manager ID is required");
-    }
-    if (durationMinutes <= 0) {
-      throw new IllegalArgumentException("Duration must be positive");
+      throw new IllegalArgumentException(ValidationError.MOVIE_MANAGER_REQUIRED.getMessage());
     }
     if (genreIds == null) {
-      genreIds = List.of();
+      throw new IllegalArgumentException();
     }
   }
 }
