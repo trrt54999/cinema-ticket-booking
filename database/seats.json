@@ -1,0 +1,2306 @@
+[
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 1,
+    "id": "c0c3ede4-096f-49c7-bdd6-1c9bec0b9980",
+    "createdAt": "2026-01-26T23:46:36.5662699",
+    "updatedAt": "2026-01-26T23:46:36.5662699"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 1,
+    "id": "624a7912-e244-4c29-b8a7-0119e3c26266",
+    "createdAt": "2026-01-26T23:46:36.5677867",
+    "updatedAt": "2026-01-26T23:46:36.5677867"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 1,
+    "id": "e554f6f0-a9de-46af-ae07-900b795b8e92",
+    "createdAt": "2026-01-26T23:46:36.5688579",
+    "updatedAt": "2026-01-26T23:46:36.5688579"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 1,
+    "id": "aa395451-8e54-486d-807f-84d01daad177",
+    "createdAt": "2026-01-26T23:46:36.5693749",
+    "updatedAt": "2026-01-26T23:46:36.5693749"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 1,
+    "id": "74de4e00-f54a-426c-8d1d-268bd965e485",
+    "createdAt": "2026-01-26T23:46:36.5708947",
+    "updatedAt": "2026-01-26T23:46:36.5708947"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 1,
+    "id": "2275cf61-cc1b-4f07-92bd-eb50a085074a",
+    "createdAt": "2026-01-26T23:46:36.5724167",
+    "updatedAt": "2026-01-26T23:46:36.5724167"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 1,
+    "id": "32d4bc21-f56c-4019-baff-9473f9825c30",
+    "createdAt": "2026-01-26T23:46:36.5724167",
+    "updatedAt": "2026-01-26T23:46:36.5724167"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 1,
+    "id": "e31ded0b-e576-4bae-865d-7c96c6f8bac6",
+    "createdAt": "2026-01-26T23:46:36.5739401",
+    "updatedAt": "2026-01-26T23:46:36.5739401"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 1,
+    "id": "087d0719-533c-4323-8a0c-f6f767b9603d",
+    "createdAt": "2026-01-26T23:46:36.5754849",
+    "updatedAt": "2026-01-26T23:46:36.5765405"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 1,
+    "id": "a037e9b9-2a29-43c9-92e1-a41775fa226d",
+    "createdAt": "2026-01-26T23:46:36.5776864",
+    "updatedAt": "2026-01-26T23:46:36.5776864"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 2,
+    "id": "a5250c23-c039-4325-b3df-a2dd1414f5bf",
+    "createdAt": "2026-01-26T23:46:36.5791977",
+    "updatedAt": "2026-01-26T23:46:36.5791977"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 2,
+    "id": "b130d903-f61e-4ca3-b588-4d47d31917ff",
+    "createdAt": "2026-01-26T23:46:36.5802241",
+    "updatedAt": "2026-01-26T23:46:36.5802241"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 2,
+    "id": "84ea8b60-91c9-48ef-ab4f-90deea643ada",
+    "createdAt": "2026-01-26T23:46:36.5807373",
+    "updatedAt": "2026-01-26T23:46:36.5807373"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 2,
+    "id": "334ab160-80c4-4f08-964d-37917eb1b828",
+    "createdAt": "2026-01-26T23:46:36.5823807",
+    "updatedAt": "2026-01-26T23:46:36.5823807"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 2,
+    "id": "a121effa-1edc-4342-9908-28db466f06d2",
+    "createdAt": "2026-01-26T23:46:36.5834457",
+    "updatedAt": "2026-01-26T23:46:36.5834457"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 2,
+    "id": "04d5993a-5f90-4227-8b34-c6a1e1eb68c4",
+    "createdAt": "2026-01-26T23:46:36.5844806",
+    "updatedAt": "2026-01-26T23:46:36.5844806"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 2,
+    "id": "09d81e10-11b9-4ed1-914c-303feb01a655",
+    "createdAt": "2026-01-26T23:46:36.5875093",
+    "updatedAt": "2026-01-26T23:46:36.5875093"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 2,
+    "id": "cfba84fb-359a-493c-b28f-4a291a6911bc",
+    "createdAt": "2026-01-26T23:46:36.5890616",
+    "updatedAt": "2026-01-26T23:46:36.5890616"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 2,
+    "id": "2f7bdc67-8f13-41a7-97d5-48ee43743a22",
+    "createdAt": "2026-01-26T23:46:36.5895802",
+    "updatedAt": "2026-01-26T23:46:36.5895802"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 2,
+    "id": "e08425dd-9362-44b4-b7b5-01bd546202b6",
+    "createdAt": "2026-01-26T23:46:36.5905889",
+    "updatedAt": "2026-01-26T23:46:36.5905889"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 3,
+    "id": "18c17d91-d871-4852-bba8-90cf05c3fe68",
+    "createdAt": "2026-01-26T23:46:36.5916677",
+    "updatedAt": "2026-01-26T23:46:36.5916677"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 3,
+    "id": "af6dc96a-0b73-4309-ad53-52018f80487e",
+    "createdAt": "2026-01-26T23:46:36.5922956",
+    "updatedAt": "2026-01-26T23:46:36.5922956"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 3,
+    "id": "ee50d918-b5e9-428b-97e4-9dda41be5523",
+    "createdAt": "2026-01-26T23:46:36.5938096",
+    "updatedAt": "2026-01-26T23:46:36.5938096"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 3,
+    "id": "d3361df3-e986-44c6-812c-5f078bb33b2e",
+    "createdAt": "2026-01-26T23:46:36.5948141",
+    "updatedAt": "2026-01-26T23:46:36.5948141"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 3,
+    "id": "42a06861-d616-4861-98fb-ac10149a3d47",
+    "createdAt": "2026-01-26T23:46:36.5958221",
+    "updatedAt": "2026-01-26T23:46:36.5958221"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 3,
+    "id": "fc7d7455-0264-43cb-b8a9-cda535c0c82f",
+    "createdAt": "2026-01-26T23:46:36.5968497",
+    "updatedAt": "2026-01-26T23:46:36.5968497"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 3,
+    "id": "bef7217d-1c29-4b06-b254-78c31bd2a8f3",
+    "createdAt": "2026-01-26T23:46:36.5978874",
+    "updatedAt": "2026-01-26T23:46:36.5978874"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 3,
+    "id": "06f3eafa-c72c-44e1-ba56-b73d60056f80",
+    "createdAt": "2026-01-26T23:46:36.5988965",
+    "updatedAt": "2026-01-26T23:46:36.5988965"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 3,
+    "id": "f6b0c8d0-6152-4e39-9bf2-f0ac21918be9",
+    "createdAt": "2026-01-26T23:46:36.599401",
+    "updatedAt": "2026-01-26T23:46:36.599401"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 3,
+    "id": "918f805f-e8ce-422c-9c3b-6f097e258a88",
+    "createdAt": "2026-01-26T23:46:36.600912",
+    "updatedAt": "2026-01-26T23:46:36.600912"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 4,
+    "id": "729eccb7-0f49-4293-9e40-0ecce4d2b4d8",
+    "createdAt": "2026-01-26T23:46:36.6019184",
+    "updatedAt": "2026-01-26T23:46:36.6019184"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 4,
+    "id": "eefffd2c-061c-42bb-9fed-567e7aeccba7",
+    "createdAt": "2026-01-26T23:46:36.602424",
+    "updatedAt": "2026-01-26T23:46:36.602424"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 4,
+    "id": "299dae5b-fc39-437b-abd7-42ff058cc21c",
+    "createdAt": "2026-01-26T23:46:36.6039333",
+    "updatedAt": "2026-01-26T23:46:36.6039333"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 4,
+    "id": "d0367c12-bb45-4a68-b2df-11747ce884f3",
+    "createdAt": "2026-01-26T23:46:36.6049665",
+    "updatedAt": "2026-01-26T23:46:36.6049665"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 4,
+    "id": "09a06277-a8ad-4ba5-8e51-e9ce354b7f09",
+    "createdAt": "2026-01-26T23:46:36.6054865",
+    "updatedAt": "2026-01-26T23:46:36.6054865"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 4,
+    "id": "ff12cbaa-2931-4063-b52f-b9035e7f9a4e",
+    "createdAt": "2026-01-26T23:46:36.6064924",
+    "updatedAt": "2026-01-26T23:46:36.6064924"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 4,
+    "id": "0e3bc223-1465-4a3a-a72c-93e4b8484800",
+    "createdAt": "2026-01-26T23:46:36.6064924",
+    "updatedAt": "2026-01-26T23:46:36.6064924"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 4,
+    "id": "efa8b555-e559-42c8-8929-1ee45fb272b9",
+    "createdAt": "2026-01-26T23:46:36.608728",
+    "updatedAt": "2026-01-26T23:46:36.608728"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 4,
+    "id": "b261fb39-048b-42fb-85de-1a6810ad5e72",
+    "createdAt": "2026-01-26T23:46:36.609249",
+    "updatedAt": "2026-01-26T23:46:36.609249"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 4,
+    "id": "13099549-2068-4877-9f1f-7fe261911870",
+    "createdAt": "2026-01-26T23:46:36.6107629",
+    "updatedAt": "2026-01-26T23:46:36.6107629"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 5,
+    "id": "a4cdaf36-116e-4c99-98f4-b12212d0762d",
+    "createdAt": "2026-01-26T23:46:36.6107629",
+    "updatedAt": "2026-01-26T23:46:36.6107629"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 5,
+    "id": "0f898cb1-0c5d-4a3e-8882-8ee78420995c",
+    "createdAt": "2026-01-26T23:46:36.612278",
+    "updatedAt": "2026-01-26T23:46:36.612278"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 5,
+    "id": "f83776fb-e247-4b67-893e-b739fd5a235c",
+    "createdAt": "2026-01-26T23:46:36.6137886",
+    "updatedAt": "2026-01-26T23:46:36.6137886"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 5,
+    "id": "2d8657bf-5d5a-4fb4-a28a-97f521c40b91",
+    "createdAt": "2026-01-26T23:46:36.6149378",
+    "updatedAt": "2026-01-26T23:46:36.6149378"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 5,
+    "id": "ede3768b-f329-4468-a5f5-0ec0a59b28a5",
+    "createdAt": "2026-01-26T23:46:36.6154491",
+    "updatedAt": "2026-01-26T23:46:36.6154491"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 5,
+    "id": "c4ca594a-3c85-4c08-987e-cde8b36e6b76",
+    "createdAt": "2026-01-26T23:46:36.6164832",
+    "updatedAt": "2026-01-26T23:46:36.6164832"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 5,
+    "id": "b35bd1d2-55db-463d-9fd9-1537e4617b2d",
+    "createdAt": "2026-01-26T23:46:36.6174906",
+    "updatedAt": "2026-01-26T23:46:36.6174906"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 5,
+    "id": "e3fb1e10-a807-4fef-92f2-6a9fe32fe135",
+    "createdAt": "2026-01-26T23:46:36.6185145",
+    "updatedAt": "2026-01-26T23:46:36.6185145"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 5,
+    "id": "e355ec05-f535-40c6-8f47-255c1670e621",
+    "createdAt": "2026-01-26T23:46:36.6195414",
+    "updatedAt": "2026-01-26T23:46:36.6195414"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 5,
+    "id": "6ab94d79-80ca-4d1c-b01c-7b164286a141",
+    "createdAt": "2026-01-26T23:46:36.6205467",
+    "updatedAt": "2026-01-26T23:46:36.6210509"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 6,
+    "id": "ed15631d-8027-4865-b5ce-8ede10020943",
+    "createdAt": "2026-01-26T23:46:36.6210509",
+    "updatedAt": "2026-01-26T23:46:36.6210509"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 6,
+    "id": "44ef4f8d-cbc7-43b9-9576-fd8f3dce5ff8",
+    "createdAt": "2026-01-26T23:46:36.6225607",
+    "updatedAt": "2026-01-26T23:46:36.6225607"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 6,
+    "id": "9c5974d6-3403-496e-b468-bb9f60fae069",
+    "createdAt": "2026-01-26T23:46:36.6240703",
+    "updatedAt": "2026-01-26T23:46:36.6240703"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 6,
+    "id": "9fb17f8a-ce0c-42b1-9987-9fd19aae7611",
+    "createdAt": "2026-01-26T23:46:36.6240703",
+    "updatedAt": "2026-01-26T23:46:36.6240703"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 6,
+    "id": "d685eeb4-b7c8-4042-96c9-07a3cfb0ed7f",
+    "createdAt": "2026-01-26T23:46:36.6255821",
+    "updatedAt": "2026-01-26T23:46:36.6255821"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 6,
+    "id": "dd3d22e1-2c4a-4aa7-8615-7985c82d7d41",
+    "createdAt": "2026-01-26T23:46:36.6265868",
+    "updatedAt": "2026-01-26T23:46:36.6265868"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 6,
+    "id": "f2db551a-9f34-479c-9a2e-0d181d294f90",
+    "createdAt": "2026-01-26T23:46:36.6276797",
+    "updatedAt": "2026-01-26T23:46:36.6276797"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 6,
+    "id": "3f37c10f-6071-43dc-ac02-110402bbbe82",
+    "createdAt": "2026-01-26T23:46:36.628685",
+    "updatedAt": "2026-01-26T23:46:36.628685"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 6,
+    "id": "2428abe1-bb32-4d34-a71b-4918b03a6319",
+    "createdAt": "2026-01-26T23:46:36.6297061",
+    "updatedAt": "2026-01-26T23:46:36.6297061"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 6,
+    "id": "1a5359b8-e20a-4c3e-a130-bf79fe38a397",
+    "createdAt": "2026-01-26T23:46:36.6307843",
+    "updatedAt": "2026-01-26T23:46:36.6307843"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 7,
+    "id": "eae94857-4c63-4dae-8e88-7088878f8073",
+    "createdAt": "2026-01-26T23:46:36.6312968",
+    "updatedAt": "2026-01-26T23:46:36.6312968"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 7,
+    "id": "711f41c3-229f-44fd-93da-46c1d78908cb",
+    "createdAt": "2026-01-26T23:46:36.6328061",
+    "updatedAt": "2026-01-26T23:46:36.6328061"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 7,
+    "id": "1493f9fc-f8d1-4d47-94e9-edebc09bed46",
+    "createdAt": "2026-01-26T23:46:36.6328061",
+    "updatedAt": "2026-01-26T23:46:36.6328061"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 7,
+    "id": "e3ac4cf9-517e-4a74-831f-71c51d8621cf",
+    "createdAt": "2026-01-26T23:46:36.6343406",
+    "updatedAt": "2026-01-26T23:46:36.6343406"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 7,
+    "id": "ca12263b-ebbc-4157-bd63-25b03fb8f949",
+    "createdAt": "2026-01-26T23:46:36.6358499",
+    "updatedAt": "2026-01-26T23:46:36.6358499"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 7,
+    "id": "a82e2e27-49cc-4402-9e2c-6c55a8bb3796",
+    "createdAt": "2026-01-26T23:46:36.6358499",
+    "updatedAt": "2026-01-26T23:46:36.6358499"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 7,
+    "id": "d6a5755b-a6d7-4aa6-97de-82e2aa3f03d1",
+    "createdAt": "2026-01-26T23:46:36.6373637",
+    "updatedAt": "2026-01-26T23:46:36.6373637"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 7,
+    "id": "2fef6dc9-ee75-4151-a973-00116ede880a",
+    "createdAt": "2026-01-26T23:46:36.638885",
+    "updatedAt": "2026-01-26T23:46:36.638885"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 7,
+    "id": "d8fdfc9b-038e-4952-8d01-db6903ab320c",
+    "createdAt": "2026-01-26T23:46:36.6394767",
+    "updatedAt": "2026-01-26T23:46:36.6394767"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 7,
+    "id": "216f5a1b-b8a6-4297-a400-57b38d59c43d",
+    "createdAt": "2026-01-26T23:46:36.6404832",
+    "updatedAt": "2026-01-26T23:46:36.6404832"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 8,
+    "id": "252d2414-b524-4d68-be36-4f48ee6c7b45",
+    "createdAt": "2026-01-26T23:46:36.6415636",
+    "updatedAt": "2026-01-26T23:46:36.6415636"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 8,
+    "id": "889befad-0b90-4982-9177-b48fef818460",
+    "createdAt": "2026-01-26T23:46:36.6431116",
+    "updatedAt": "2026-01-26T23:46:36.6431116"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 8,
+    "id": "233cc72f-5f01-4b8d-81e8-863330a669d3",
+    "createdAt": "2026-01-26T23:46:36.6431116",
+    "updatedAt": "2026-01-26T23:46:36.6431116"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 8,
+    "id": "2e76c6f7-8a00-4efd-b6b9-b21a0812ba11",
+    "createdAt": "2026-01-26T23:46:36.6456524",
+    "updatedAt": "2026-01-26T23:46:36.6456524"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 8,
+    "id": "466d11f7-0024-4f37-84ac-c3cada77c9d2",
+    "createdAt": "2026-01-26T23:46:36.6466692",
+    "updatedAt": "2026-01-26T23:46:36.6466692"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 8,
+    "id": "9ed47164-332d-4c28-b5a0-b8f864f1b27a",
+    "createdAt": "2026-01-26T23:46:36.6473758",
+    "updatedAt": "2026-01-26T23:46:36.6473758"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 7,
+    "row": 8,
+    "id": "0a1aa7de-68a4-47ac-91ae-0f046248dbcf",
+    "createdAt": "2026-01-26T23:46:36.648896",
+    "updatedAt": "2026-01-26T23:46:36.648896"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 8,
+    "row": 8,
+    "id": "c90600df-53b3-46ec-a0c1-569f021278a4",
+    "createdAt": "2026-01-26T23:46:36.6494006",
+    "updatedAt": "2026-01-26T23:46:36.6494006"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 9,
+    "row": 8,
+    "id": "f818e1c0-b39c-4b3f-a88e-60d187f1bf7d",
+    "createdAt": "2026-01-26T23:46:36.6509106",
+    "updatedAt": "2026-01-26T23:46:36.6509106"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "DEFAULT",
+    "number": 10,
+    "row": 8,
+    "id": "119185aa-ff7f-4f0f-bb4a-f92c2589c0f8",
+    "createdAt": "2026-01-26T23:46:36.6524209",
+    "updatedAt": "2026-01-26T23:46:36.6524209"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 9,
+    "id": "fc0a2a84-8f97-4424-9f8d-09f5ab642e40",
+    "createdAt": "2026-01-26T23:46:36.6539359",
+    "updatedAt": "2026-01-26T23:46:36.6539359"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 9,
+    "id": "0bdcbc1d-0211-44e4-87b4-502da92fcf6f",
+    "createdAt": "2026-01-26T23:46:36.655062",
+    "updatedAt": "2026-01-26T23:46:36.6555843"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 9,
+    "id": "b1270356-eeae-4dbc-b548-1902dc63d910",
+    "createdAt": "2026-01-26T23:46:36.6565891",
+    "updatedAt": "2026-01-26T23:46:36.6565891"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 9,
+    "id": "07bafffd-755e-4d2e-99b6-6519b641dc22",
+    "createdAt": "2026-01-26T23:46:36.6581066",
+    "updatedAt": "2026-01-26T23:46:36.6581066"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 9,
+    "id": "84d73c92-35ff-4264-b0d3-f469adc34c02",
+    "createdAt": "2026-01-26T23:46:36.6586124",
+    "updatedAt": "2026-01-26T23:46:36.6586124"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 9,
+    "id": "79fd758d-7820-45fb-b43b-4c5f9d15d314",
+    "createdAt": "2026-01-26T23:46:36.6601258",
+    "updatedAt": "2026-01-26T23:46:36.6601258"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 9,
+    "id": "330906fc-72f1-4c4f-8144-d65604937b44",
+    "createdAt": "2026-01-26T23:46:36.661636",
+    "updatedAt": "2026-01-26T23:46:36.661636"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 9,
+    "id": "22758ef5-90da-41ca-a859-be619aa47914",
+    "createdAt": "2026-01-26T23:46:36.662643",
+    "updatedAt": "2026-01-26T23:46:36.662643"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 9,
+    "id": "c6a43733-a4d8-418b-8e1f-c07418de996a",
+    "createdAt": "2026-01-26T23:46:36.6636636",
+    "updatedAt": "2026-01-26T23:46:36.6636636"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 9,
+    "id": "dec08e74-5f64-4c6e-931a-eb1d387c691b",
+    "createdAt": "2026-01-26T23:46:36.6646983",
+    "updatedAt": "2026-01-26T23:46:36.6646983"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 10,
+    "id": "edc99edf-88fa-4468-b061-ddf3dccf5c93",
+    "createdAt": "2026-01-26T23:46:36.6657053",
+    "updatedAt": "2026-01-26T23:46:36.6657053"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 10,
+    "id": "2065eb87-ed32-49f4-93ae-6da48c61ee5a",
+    "createdAt": "2026-01-26T23:46:36.6667261",
+    "updatedAt": "2026-01-26T23:46:36.6667261"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 10,
+    "id": "1958cfd4-b56a-49ed-bc8a-27501b31976b",
+    "createdAt": "2026-01-26T23:46:36.6682736",
+    "updatedAt": "2026-01-26T23:46:36.6682736"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 10,
+    "id": "2333854a-99e3-400f-ab97-fca33514c413",
+    "createdAt": "2026-01-26T23:46:36.6693549",
+    "updatedAt": "2026-01-26T23:46:36.6693549"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 10,
+    "id": "147ea265-b4cf-4021-a633-5e6633b54356",
+    "createdAt": "2026-01-26T23:46:36.6693549",
+    "updatedAt": "2026-01-26T23:46:36.6693549"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 10,
+    "id": "79dfec09-48a4-419a-9bff-6ed62a3385fb",
+    "createdAt": "2026-01-26T23:46:36.6735435",
+    "updatedAt": "2026-01-26T23:46:36.6735435"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 10,
+    "id": "32fdd078-4248-4ccb-9205-586aebe52555",
+    "createdAt": "2026-01-26T23:46:36.674057",
+    "updatedAt": "2026-01-26T23:46:36.674057"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 10,
+    "id": "5328b064-6c53-47cd-834d-089babf276ac",
+    "createdAt": "2026-01-26T23:46:36.6755692",
+    "updatedAt": "2026-01-26T23:46:36.6755692"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 10,
+    "id": "e130f469-5bb3-4265-8493-a822f21e0a93",
+    "createdAt": "2026-01-26T23:46:36.6765762",
+    "updatedAt": "2026-01-26T23:46:36.6765762"
+  },
+  {
+    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 10,
+    "id": "8594d1f7-4477-45e2-8896-6488f4733a8e",
+    "createdAt": "2026-01-26T23:46:36.678102",
+    "updatedAt": "2026-01-26T23:46:36.678102"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 1,
+    "id": "f113c7cf-d1aa-45ce-b67c-f7434b58517d",
+    "createdAt": "2026-01-26T23:46:48.6294929",
+    "updatedAt": "2026-01-26T23:46:48.6294929"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 1,
+    "id": "e8ae8073-63d2-473c-9771-102b4053569e",
+    "createdAt": "2026-01-26T23:46:48.6304997",
+    "updatedAt": "2026-01-26T23:46:48.6304997"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 1,
+    "id": "93bb9617-6793-4419-b85d-d7861ac46e59",
+    "createdAt": "2026-01-26T23:46:48.6323495",
+    "updatedAt": "2026-01-26T23:46:48.6323495"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 1,
+    "id": "c00e0378-b40a-4d0d-8289-d1f5e25ebcfe",
+    "createdAt": "2026-01-26T23:46:48.6335447",
+    "updatedAt": "2026-01-26T23:46:48.6335447"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 1,
+    "id": "f2a857df-19cd-4551-9178-18ffe8fb8bea",
+    "createdAt": "2026-01-26T23:46:48.6341105",
+    "updatedAt": "2026-01-26T23:46:48.6341105"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 1,
+    "id": "74ed472e-836a-4bb9-b155-da13c9182913",
+    "createdAt": "2026-01-26T23:46:48.635622",
+    "updatedAt": "2026-01-26T23:46:48.635622"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 2,
+    "id": "4fd0622d-237c-46d2-8f3b-36d09a4d6440",
+    "createdAt": "2026-01-26T23:46:48.6366289",
+    "updatedAt": "2026-01-26T23:46:48.6366289"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 2,
+    "id": "06e493b4-39ab-457c-ad22-0e90fef11363",
+    "createdAt": "2026-01-26T23:46:48.637133",
+    "updatedAt": "2026-01-26T23:46:48.637133"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 2,
+    "id": "f41e17e4-07ad-4d0b-80c7-7246f56f594c",
+    "createdAt": "2026-01-26T23:46:48.6386434",
+    "updatedAt": "2026-01-26T23:46:48.6386434"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 2,
+    "id": "f95253c9-b898-4c08-8f28-e388a9ef41a3",
+    "createdAt": "2026-01-26T23:46:48.6396586",
+    "updatedAt": "2026-01-26T23:46:48.6396586"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 2,
+    "id": "e6320fbd-0e6f-4b29-8bb5-e0466e527114",
+    "createdAt": "2026-01-26T23:46:48.6411769",
+    "updatedAt": "2026-01-26T23:46:48.6411769"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 2,
+    "id": "f33bde28-ca00-47ed-b194-35407bf015dc",
+    "createdAt": "2026-01-26T23:46:48.6416811",
+    "updatedAt": "2026-01-26T23:46:48.6416811"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 3,
+    "id": "d707ffa0-2fa5-4f7e-bfe5-a40cb8dc076b",
+    "createdAt": "2026-01-26T23:46:48.6431916",
+    "updatedAt": "2026-01-26T23:46:48.6431916"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 3,
+    "id": "371c5d50-5653-4ea0-b327-5d7fc704e1e2",
+    "createdAt": "2026-01-26T23:46:48.6441962",
+    "updatedAt": "2026-01-26T23:46:48.6441962"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 3,
+    "id": "bf0eb939-8b35-4a95-953f-3d154776b3e8",
+    "createdAt": "2026-01-26T23:46:48.6447041",
+    "updatedAt": "2026-01-26T23:46:48.6447041"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 3,
+    "id": "c439c31e-b325-4bbe-97c9-6fce8c606f2a",
+    "createdAt": "2026-01-26T23:46:48.6457078",
+    "updatedAt": "2026-01-26T23:46:48.6457078"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 3,
+    "id": "7f85441e-f063-4f16-a25f-f205256216fa",
+    "createdAt": "2026-01-26T23:46:48.6475744",
+    "updatedAt": "2026-01-26T23:46:48.6475744"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 3,
+    "id": "896d31ae-d116-4768-96e0-61b766fef652",
+    "createdAt": "2026-01-26T23:46:48.6486814",
+    "updatedAt": "2026-01-26T23:46:48.6486814"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 4,
+    "id": "7f1c76dd-77e3-4f36-ab06-60663c14091e",
+    "createdAt": "2026-01-26T23:46:48.6491958",
+    "updatedAt": "2026-01-26T23:46:48.6491958"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 4,
+    "id": "d221e9d9-6731-4520-baa1-3d21bef9a07b",
+    "createdAt": "2026-01-26T23:46:48.6502047",
+    "updatedAt": "2026-01-26T23:46:48.6502047"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 4,
+    "id": "f476474f-2bc6-4b4c-8e2e-2f51d1edc0a9",
+    "createdAt": "2026-01-26T23:46:48.6512571",
+    "updatedAt": "2026-01-26T23:46:48.6512571"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 4,
+    "id": "5bbde776-ea33-4292-b57d-769def33b683",
+    "createdAt": "2026-01-26T23:46:48.6528098",
+    "updatedAt": "2026-01-26T23:46:48.6528098"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 4,
+    "id": "bd40954a-1ba8-4007-a454-e31303e55003",
+    "createdAt": "2026-01-26T23:46:48.6538675",
+    "updatedAt": "2026-01-26T23:46:48.6538675"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 4,
+    "id": "e1316ad7-3215-4565-97ba-6b27ec098d48",
+    "createdAt": "2026-01-26T23:46:48.6553938",
+    "updatedAt": "2026-01-26T23:46:48.6553938"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 5,
+    "id": "c7f9f3eb-2da8-4ff0-92c8-79ae69ea488f",
+    "createdAt": "2026-01-26T23:46:48.6559036",
+    "updatedAt": "2026-01-26T23:46:48.6569081"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 5,
+    "id": "0024bd37-9f84-40dd-a9e9-2a05a0f4971f",
+    "createdAt": "2026-01-26T23:46:48.6579146",
+    "updatedAt": "2026-01-26T23:46:48.6579146"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 5,
+    "id": "5bd9cd4e-28f5-4e14-a2ad-042673201d38",
+    "createdAt": "2026-01-26T23:46:48.6590514",
+    "updatedAt": "2026-01-26T23:46:48.6590514"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 5,
+    "id": "5082284f-d899-442e-a6d2-d619c460a9d0",
+    "createdAt": "2026-01-26T23:46:48.6600862",
+    "updatedAt": "2026-01-26T23:46:48.6600862"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 5,
+    "id": "e2e1ccac-e02f-42bc-a7ab-8ff56b6a5b17",
+    "createdAt": "2026-01-26T23:46:48.6611348",
+    "updatedAt": "2026-01-26T23:46:48.6611348"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 5,
+    "id": "98409cdc-37f0-446a-a7bc-7e5efb32a25b",
+    "createdAt": "2026-01-26T23:46:48.6621393",
+    "updatedAt": "2026-01-26T23:46:48.6621393"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 1,
+    "row": 6,
+    "id": "99382068-ed49-4724-bd86-2d3655c361d2",
+    "createdAt": "2026-01-26T23:46:48.6626453",
+    "updatedAt": "2026-01-26T23:46:48.6626453"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 2,
+    "row": 6,
+    "id": "5761245c-51e3-4163-9bd1-2d932b4eeddc",
+    "createdAt": "2026-01-26T23:46:48.6641569",
+    "updatedAt": "2026-01-26T23:46:48.6641569"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 3,
+    "row": 6,
+    "id": "d3461fb5-dc77-4517-80b2-32b6af505655",
+    "createdAt": "2026-01-26T23:46:48.6651635",
+    "updatedAt": "2026-01-26T23:46:48.6651635"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 4,
+    "row": 6,
+    "id": "e4ef4e31-8c57-4c26-a976-da301596aa72",
+    "createdAt": "2026-01-26T23:46:48.6665605",
+    "updatedAt": "2026-01-26T23:46:48.6665605"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 5,
+    "row": 6,
+    "id": "ddae468e-572a-493f-bddd-fb3448f14996",
+    "createdAt": "2026-01-26T23:46:48.6680919",
+    "updatedAt": "2026-01-26T23:46:48.6680919"
+  },
+  {
+    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
+    "seatType": "DEFAULT",
+    "number": 6,
+    "row": 6,
+    "id": "cdbe960d-268d-4f13-934b-6d34d32e2f5a",
+    "createdAt": "2026-01-26T23:46:48.6691795",
+    "updatedAt": "2026-01-26T23:46:48.6691795"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 1,
+    "id": "58f56119-f98c-44cc-928d-c982d7d63449",
+    "createdAt": "2026-01-26T23:46:58.0803879",
+    "updatedAt": "2026-01-26T23:46:58.0803879"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 1,
+    "id": "ad31fcf5-85aa-42f4-ac6b-64b7d4bb3e51",
+    "createdAt": "2026-01-26T23:46:58.0824389",
+    "updatedAt": "2026-01-26T23:46:58.0824389"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 1,
+    "id": "94760471-2bb5-4048-99ce-8eecbe8fd1f0",
+    "createdAt": "2026-01-26T23:46:58.0834454",
+    "updatedAt": "2026-01-26T23:46:58.0834454"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 1,
+    "id": "10b69543-6edc-49f2-890f-5e322958593f",
+    "createdAt": "2026-01-26T23:46:58.0834454",
+    "updatedAt": "2026-01-26T23:46:58.0834454"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 1,
+    "id": "714c5b9e-eb5a-4dd6-898d-14abb74539f0",
+    "createdAt": "2026-01-26T23:46:58.0855066",
+    "updatedAt": "2026-01-26T23:46:58.0855066"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 1,
+    "id": "821e3031-8df5-4958-90a9-e2b483f06f42",
+    "createdAt": "2026-01-26T23:46:58.087019",
+    "updatedAt": "2026-01-26T23:46:58.087019"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 1,
+    "id": "c7e06dfd-f517-444f-820c-7c26cdf4d98e",
+    "createdAt": "2026-01-26T23:46:58.0875672",
+    "updatedAt": "2026-01-26T23:46:58.0875672"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 1,
+    "id": "d09bd606-631e-44de-a803-4bfea336aa99",
+    "createdAt": "2026-01-26T23:46:58.0890877",
+    "updatedAt": "2026-01-26T23:46:58.0890877"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 1,
+    "id": "d45533e7-b8b8-4b50-8f53-c9abb941ad11",
+    "createdAt": "2026-01-26T23:46:58.0906055",
+    "updatedAt": "2026-01-26T23:46:58.0906055"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 1,
+    "id": "7ce34d2c-69af-48d0-9a3b-48d1d5bfa4e1",
+    "createdAt": "2026-01-26T23:46:58.0916779",
+    "updatedAt": "2026-01-26T23:46:58.0916779"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 2,
+    "id": "6f92fbac-d02e-4d51-a88a-b1368587fe55",
+    "createdAt": "2026-01-26T23:46:58.0932116",
+    "updatedAt": "2026-01-26T23:46:58.0932116"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 2,
+    "id": "676f9f47-b9de-4626-80f7-45e7e5e0ec0c",
+    "createdAt": "2026-01-26T23:46:58.0932116",
+    "updatedAt": "2026-01-26T23:46:58.0932116"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 2,
+    "id": "d2392900-e0a3-4287-923d-38675dd9fab0",
+    "createdAt": "2026-01-26T23:46:58.0953512",
+    "updatedAt": "2026-01-26T23:46:58.0953512"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 2,
+    "id": "e5bd9950-e5b0-4016-82eb-2dcbe9da4174",
+    "createdAt": "2026-01-26T23:46:58.09658",
+    "updatedAt": "2026-01-26T23:46:58.09658"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 2,
+    "id": "e3cc3113-4e6c-43ce-b3bc-f7b640a11dac",
+    "createdAt": "2026-01-26T23:46:58.0976711",
+    "updatedAt": "2026-01-26T23:46:58.0976711"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 2,
+    "id": "fb27b800-f209-4179-a474-73db789d9569",
+    "createdAt": "2026-01-26T23:46:58.0992464",
+    "updatedAt": "2026-01-26T23:46:58.0992464"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 2,
+    "id": "f7e6ba23-7624-450a-abc2-9ee868cdb64e",
+    "createdAt": "2026-01-26T23:46:58.099847",
+    "updatedAt": "2026-01-26T23:46:58.099847"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 2,
+    "id": "91436ad2-189e-48aa-920f-14cefffb3a0e",
+    "createdAt": "2026-01-26T23:46:58.1013581",
+    "updatedAt": "2026-01-26T23:46:58.1013581"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 2,
+    "id": "79590542-a969-4cbc-b4fb-e06c07ef2f85",
+    "createdAt": "2026-01-26T23:46:58.1028676",
+    "updatedAt": "2026-01-26T23:46:58.1028676"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 2,
+    "id": "51e9629e-5787-41f4-8af9-f7740a2816a2",
+    "createdAt": "2026-01-26T23:46:58.1043787",
+    "updatedAt": "2026-01-26T23:46:58.1043787"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 3,
+    "id": "d58abd21-c60b-4dbd-9c39-26d76a55273c",
+    "createdAt": "2026-01-26T23:46:58.1054106",
+    "updatedAt": "2026-01-26T23:46:58.1054106"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 3,
+    "id": "94e3eb43-7d87-43a8-9b21-7ebcf919768a",
+    "createdAt": "2026-01-26T23:46:58.1065264",
+    "updatedAt": "2026-01-26T23:46:58.1065264"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 3,
+    "id": "a1a09d51-9473-4b4e-936c-5ab6ea85cd4f",
+    "createdAt": "2026-01-26T23:46:58.1085751",
+    "updatedAt": "2026-01-26T23:46:58.1085751"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 3,
+    "id": "8e4fa50a-6e69-4c57-8493-7df6fa9c95b4",
+    "createdAt": "2026-01-26T23:46:58.1100929",
+    "updatedAt": "2026-01-26T23:46:58.1100929"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 3,
+    "id": "967a0f87-9f50-467e-90e2-96ed98583cd5",
+    "createdAt": "2026-01-26T23:46:58.1116021",
+    "updatedAt": "2026-01-26T23:46:58.1116021"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 3,
+    "id": "0d6b21ae-6a8b-48e4-ba7f-6f8ca796b17e",
+    "createdAt": "2026-01-26T23:46:58.1131104",
+    "updatedAt": "2026-01-26T23:46:58.1131104"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 3,
+    "id": "f65456fd-ebe3-40d6-91dc-75e603757590",
+    "createdAt": "2026-01-26T23:46:58.1146303",
+    "updatedAt": "2026-01-26T23:46:58.1146303"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 3,
+    "id": "3c026eff-e743-4231-9bb8-a2c66e80b435",
+    "createdAt": "2026-01-26T23:46:58.1151339",
+    "updatedAt": "2026-01-26T23:46:58.1151339"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 3,
+    "id": "7ab6b5d6-e85b-46bc-b359-2261bf02baa0",
+    "createdAt": "2026-01-26T23:46:58.117193",
+    "updatedAt": "2026-01-26T23:46:58.117193"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 3,
+    "id": "0d7a0ea0-dee5-469f-bc62-599a5b0833fb",
+    "createdAt": "2026-01-26T23:46:58.1187077",
+    "updatedAt": "2026-01-26T23:46:58.1187077"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 4,
+    "id": "857cb3e8-1df7-48d4-b1ea-8f1a15958389",
+    "createdAt": "2026-01-26T23:46:58.12022",
+    "updatedAt": "2026-01-26T23:46:58.12022"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 4,
+    "id": "610eb98e-8192-4c46-9d5a-a16ef466d667",
+    "createdAt": "2026-01-26T23:46:58.12022",
+    "updatedAt": "2026-01-26T23:46:58.12022"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 4,
+    "id": "9b4f365f-522e-461c-9ac5-c318ef9d5c76",
+    "createdAt": "2026-01-26T23:46:58.1222032",
+    "updatedAt": "2026-01-26T23:46:58.1222032"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 4,
+    "id": "7c158ae4-c42f-482d-b6b7-b50d797727be",
+    "createdAt": "2026-01-26T23:46:58.1242513",
+    "updatedAt": "2026-01-26T23:46:58.1242513"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 4,
+    "id": "3e9555ca-be73-4c35-97ea-963b61e6e139",
+    "createdAt": "2026-01-26T23:46:58.1257627",
+    "updatedAt": "2026-01-26T23:46:58.1257627"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 4,
+    "id": "d308a616-4609-4248-b5c3-bab785bd5dda",
+    "createdAt": "2026-01-26T23:46:58.1272741",
+    "updatedAt": "2026-01-26T23:46:58.1272741"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 4,
+    "id": "376b1a02-b202-41ae-89fc-bb0b3a7ed586",
+    "createdAt": "2026-01-26T23:46:58.1287845",
+    "updatedAt": "2026-01-26T23:46:58.1287845"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 4,
+    "id": "2c5d821e-d7cc-4402-86a0-9807bcf80679",
+    "createdAt": "2026-01-26T23:46:58.1303223",
+    "updatedAt": "2026-01-26T23:46:58.1303223"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 4,
+    "id": "e9588f06-2f6d-44da-876c-8279de0bcfce",
+    "createdAt": "2026-01-26T23:46:58.1318322",
+    "updatedAt": "2026-01-26T23:46:58.1318322"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 4,
+    "id": "fd06b341-bbcf-4ac0-88e9-10d71f219b2d",
+    "createdAt": "2026-01-26T23:46:58.1328568",
+    "updatedAt": "2026-01-26T23:46:58.1328568"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 5,
+    "id": "98ffb591-dd6c-47f8-834f-178cd58c5300",
+    "createdAt": "2026-01-26T23:46:58.1343661",
+    "updatedAt": "2026-01-26T23:46:58.1343661"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 5,
+    "id": "b2f4442b-6ff3-43bd-948f-2cd09ab710db",
+    "createdAt": "2026-01-26T23:46:58.1358761",
+    "updatedAt": "2026-01-26T23:46:58.1358761"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 5,
+    "id": "dd55cc33-e61d-42c7-ac27-9884a7ad52d3",
+    "createdAt": "2026-01-26T23:46:58.1373865",
+    "updatedAt": "2026-01-26T23:46:58.1373865"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 5,
+    "id": "6fa22e3c-37a5-4f87-ad78-6a13d20401a6",
+    "createdAt": "2026-01-26T23:46:58.1396422",
+    "updatedAt": "2026-01-26T23:46:58.1396422"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 5,
+    "id": "711155d6-1ecc-4daf-a78d-3d188b33a5a6",
+    "createdAt": "2026-01-26T23:46:58.1411648",
+    "updatedAt": "2026-01-26T23:46:58.1411648"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 5,
+    "id": "7665141f-9083-467b-ace8-3d0335d2a62f",
+    "createdAt": "2026-01-26T23:46:58.1426771",
+    "updatedAt": "2026-01-26T23:46:58.1426771"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 5,
+    "id": "9580cf8f-00a2-45cf-b208-b570f4497d9b",
+    "createdAt": "2026-01-26T23:46:58.1442743",
+    "updatedAt": "2026-01-26T23:46:58.1442743"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 5,
+    "id": "97175776-d54d-4d6a-aed7-8e9d0681f00d",
+    "createdAt": "2026-01-26T23:46:58.145784",
+    "updatedAt": "2026-01-26T23:46:58.145784"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 5,
+    "id": "0489f694-b93d-46c6-8a24-619f992d5114",
+    "createdAt": "2026-01-26T23:46:58.1472952",
+    "updatedAt": "2026-01-26T23:46:58.1472952"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 5,
+    "id": "b0442829-1313-4fe3-9bf9-fd8843d763e3",
+    "createdAt": "2026-01-26T23:46:58.1488293",
+    "updatedAt": "2026-01-26T23:46:58.1488293"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 6,
+    "id": "a244fbec-154c-42a7-a2b9-53b1f56ad9cf",
+    "createdAt": "2026-01-26T23:46:58.1493413",
+    "updatedAt": "2026-01-26T23:46:58.1493413"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 6,
+    "id": "85559d0e-c0fd-4f57-9c18-1d6340e0cfa1",
+    "createdAt": "2026-01-26T23:46:58.1513638",
+    "updatedAt": "2026-01-26T23:46:58.1513638"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 6,
+    "id": "80557b9f-4ca3-4c12-849a-9e2e50167cdc",
+    "createdAt": "2026-01-26T23:46:58.1518799",
+    "updatedAt": "2026-01-26T23:46:58.1518799"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 6,
+    "id": "452f5f02-0095-4673-b8c9-2959371e965f",
+    "createdAt": "2026-01-26T23:46:58.1544108",
+    "updatedAt": "2026-01-26T23:46:58.1544108"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 6,
+    "id": "38321a34-539c-4717-b528-f0959b1ddf84",
+    "createdAt": "2026-01-26T23:46:58.1564779",
+    "updatedAt": "2026-01-26T23:46:58.1564779"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 6,
+    "id": "2ba6f9ce-39e2-4386-930d-5f8ae609c55b",
+    "createdAt": "2026-01-26T23:46:58.1576092",
+    "updatedAt": "2026-01-26T23:46:58.1576092"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 6,
+    "id": "ef6a9db4-681b-4cee-8383-c2ea4cd65404",
+    "createdAt": "2026-01-26T23:46:58.1591198",
+    "updatedAt": "2026-01-26T23:46:58.1591198"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 6,
+    "id": "cc3c129a-126e-4550-b367-4e6022d018de",
+    "createdAt": "2026-01-26T23:46:58.1601244",
+    "updatedAt": "2026-01-26T23:46:58.1601244"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 6,
+    "id": "c3b533a7-9172-4fb1-b442-06240c378fa6",
+    "createdAt": "2026-01-26T23:46:58.1622843",
+    "updatedAt": "2026-01-26T23:46:58.1622843"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 6,
+    "id": "877b9595-912a-43b5-875c-970e32672178",
+    "createdAt": "2026-01-26T23:46:58.1648016",
+    "updatedAt": "2026-01-26T23:46:58.1648016"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 7,
+    "id": "31558445-ec89-4bda-8449-22a5e6e7fa4a",
+    "createdAt": "2026-01-26T23:46:58.166331",
+    "updatedAt": "2026-01-26T23:46:58.166331"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 7,
+    "id": "58a18eac-c34f-42cb-bd80-a37461d8e0e4",
+    "createdAt": "2026-01-26T23:46:58.1678552",
+    "updatedAt": "2026-01-26T23:46:58.1678552"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 7,
+    "id": "5209a640-19a5-4ba8-854c-046d0fddea3d",
+    "createdAt": "2026-01-26T23:46:58.1694269",
+    "updatedAt": "2026-01-26T23:46:58.1694269"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 7,
+    "id": "ef672d00-cda4-430c-9cf6-6844644fb6a2",
+    "createdAt": "2026-01-26T23:46:58.1704314",
+    "updatedAt": "2026-01-26T23:46:58.1704314"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 7,
+    "id": "921eefa3-ba81-4d35-a34e-8619e3e75c2b",
+    "createdAt": "2026-01-26T23:46:58.1725806",
+    "updatedAt": "2026-01-26T23:46:58.1725806"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 7,
+    "id": "11fe5f46-546b-4afc-b8ed-e7ffbef5857f",
+    "createdAt": "2026-01-26T23:46:58.1740909",
+    "updatedAt": "2026-01-26T23:46:58.1740909"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 7,
+    "id": "f5269793-3b5e-4bb3-87cf-349496fe15ff",
+    "createdAt": "2026-01-26T23:46:58.1756013",
+    "updatedAt": "2026-01-26T23:46:58.1756013"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 7,
+    "id": "ebdddf96-898c-4340-93f5-c62b4762bdd4",
+    "createdAt": "2026-01-26T23:46:58.1778703",
+    "updatedAt": "2026-01-26T23:46:58.1778703"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 7,
+    "id": "9fcccf6a-d241-4f47-84fd-fdd4dfad7b64",
+    "createdAt": "2026-01-26T23:46:58.1794585",
+    "updatedAt": "2026-01-26T23:46:58.1794585"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 7,
+    "id": "0e99e0c3-543b-4c2c-9be1-18690a2e503a",
+    "createdAt": "2026-01-26T23:46:58.1804631",
+    "updatedAt": "2026-01-26T23:46:58.1804631"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 8,
+    "id": "400661e2-8e73-4c0a-85df-339d3b1c5c09",
+    "createdAt": "2026-01-26T23:46:58.182536",
+    "updatedAt": "2026-01-26T23:46:58.182536"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 8,
+    "id": "ad445f36-d557-4403-8022-9b0901b2b4aa",
+    "createdAt": "2026-01-26T23:46:58.183542",
+    "updatedAt": "2026-01-26T23:46:58.183542"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 8,
+    "id": "44316e7c-9920-4de8-9c07-58b07b4bb902",
+    "createdAt": "2026-01-26T23:46:58.1853774",
+    "updatedAt": "2026-01-26T23:46:58.1853774"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 8,
+    "id": "6aa11b8e-d633-41d3-905e-5c45dad5448b",
+    "createdAt": "2026-01-26T23:46:58.1874754",
+    "updatedAt": "2026-01-26T23:46:58.1874754"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 8,
+    "id": "f780c81d-3a2a-4f06-b603-3345c56ebc3b",
+    "createdAt": "2026-01-26T23:46:58.1890924",
+    "updatedAt": "2026-01-26T23:46:58.1890924"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 8,
+    "id": "538494f3-3868-4877-871d-def2cf069126",
+    "createdAt": "2026-01-26T23:46:58.1911161",
+    "updatedAt": "2026-01-26T23:46:58.1911161"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 8,
+    "id": "8e515a32-45eb-4f90-a50f-e9cc07ac8094",
+    "createdAt": "2026-01-26T23:46:58.1927889",
+    "updatedAt": "2026-01-26T23:46:58.1927889"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 8,
+    "id": "a6e61b5b-0080-48a9-8c28-4c3a7981b8ba",
+    "createdAt": "2026-01-26T23:46:58.194298",
+    "updatedAt": "2026-01-26T23:46:58.194298"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 8,
+    "id": "0a1b7cdb-b368-4549-8d3f-ee564b36e10d",
+    "createdAt": "2026-01-26T23:46:58.1958077",
+    "updatedAt": "2026-01-26T23:46:58.1958077"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 8,
+    "id": "361b3e3b-bfe6-42bd-ab3f-c3bba56b1054",
+    "createdAt": "2026-01-26T23:46:58.1978493",
+    "updatedAt": "2026-01-26T23:46:58.1978493"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 9,
+    "id": "d81dc0d7-2a25-42e9-b7fb-42df6fcbe6cf",
+    "createdAt": "2026-01-26T23:46:58.199359",
+    "updatedAt": "2026-01-26T23:46:58.199359"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 9,
+    "id": "dca19aeb-95e8-45b6-a670-fa52b169f186",
+    "createdAt": "2026-01-26T23:46:58.2008695",
+    "updatedAt": "2026-01-26T23:46:58.2008695"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 9,
+    "id": "5cc56844-5144-44e4-9965-e1def194001a",
+    "createdAt": "2026-01-26T23:46:58.2028841",
+    "updatedAt": "2026-01-26T23:46:58.2028841"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 9,
+    "id": "c9da95ab-f87f-491c-9e8f-1faf542f2396",
+    "createdAt": "2026-01-26T23:46:58.2044752",
+    "updatedAt": "2026-01-26T23:46:58.2044752"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 9,
+    "id": "66be69c7-d75f-4bf9-a6f3-e8b371436ad1",
+    "createdAt": "2026-01-26T23:46:58.2055138",
+    "updatedAt": "2026-01-26T23:46:58.2055138"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 9,
+    "id": "5ec77936-3fb3-43a3-bb4d-54cafc6185c2",
+    "createdAt": "2026-01-26T23:46:58.2080346",
+    "updatedAt": "2026-01-26T23:46:58.2080346"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 9,
+    "id": "d5f7008d-62e0-4483-bb20-46fa1f5e7d5a",
+    "createdAt": "2026-01-26T23:46:58.2095716",
+    "updatedAt": "2026-01-26T23:46:58.2095716"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 9,
+    "id": "9d19f104-264e-4b90-99c6-8b7833ed3847",
+    "createdAt": "2026-01-26T23:46:58.2115993",
+    "updatedAt": "2026-01-26T23:46:58.2115993"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 9,
+    "id": "5c6e15b6-2fbf-4ebc-a412-d5d4562391b5",
+    "createdAt": "2026-01-26T23:46:58.2131092",
+    "updatedAt": "2026-01-26T23:46:58.2131092"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 9,
+    "id": "1bd2f8f3-8213-4fff-a122-0f1048dd11ab",
+    "createdAt": "2026-01-26T23:46:58.2141358",
+    "updatedAt": "2026-01-26T23:46:58.2141358"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 10,
+    "id": "e7ad8e47-240e-4393-9a84-ebd16fc74bd5",
+    "createdAt": "2026-01-26T23:46:58.2161885",
+    "updatedAt": "2026-01-26T23:46:58.2161885"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 10,
+    "id": "a6a81341-9ff7-4fe5-b991-370696271f57",
+    "createdAt": "2026-01-26T23:46:58.2183354",
+    "updatedAt": "2026-01-26T23:46:58.2183354"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 10,
+    "id": "d756a67d-8ac5-4e25-8ca8-072ac628b93c",
+    "createdAt": "2026-01-26T23:46:58.2199891",
+    "updatedAt": "2026-01-26T23:46:58.2199891"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 10,
+    "id": "15cdaef6-8be5-420b-b5da-6201c1d32663",
+    "createdAt": "2026-01-26T23:46:58.2215011",
+    "updatedAt": "2026-01-26T23:46:58.2215011"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 10,
+    "id": "52db90af-a78c-453f-9b57-1c5500ed4e02",
+    "createdAt": "2026-01-26T23:46:58.2225071",
+    "updatedAt": "2026-01-26T23:46:58.2225071"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 10,
+    "id": "1ee98473-cddb-4d8d-8c75-5b8c959d18dd",
+    "createdAt": "2026-01-26T23:46:58.2255551",
+    "updatedAt": "2026-01-26T23:46:58.2255551"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 10,
+    "id": "d3912b77-0930-448d-9736-1b34bee4b1b9",
+    "createdAt": "2026-01-26T23:46:58.2268623",
+    "updatedAt": "2026-01-26T23:46:58.2268623"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 10,
+    "id": "eb51396c-d7b8-4f3c-b8f5-8ae8ffb63f79",
+    "createdAt": "2026-01-26T23:46:58.2289752",
+    "updatedAt": "2026-01-26T23:46:58.2289752"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 10,
+    "id": "f1e811c0-ddbd-4279-a911-c831c144a29d",
+    "createdAt": "2026-01-26T23:46:58.2305745",
+    "updatedAt": "2026-01-26T23:46:58.2305745"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 10,
+    "id": "b8104dba-c033-41fd-9f7b-9b6ee797cb6a",
+    "createdAt": "2026-01-26T23:46:58.2321054",
+    "updatedAt": "2026-01-26T23:46:58.2321054"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 11,
+    "id": "f18bc6ff-569f-4ae9-9f43-e294468572ba",
+    "createdAt": "2026-01-26T23:46:58.2342899",
+    "updatedAt": "2026-01-26T23:46:58.2342899"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 11,
+    "id": "e91a4a28-ef70-4291-9fc1-22cfac0aa8fd",
+    "createdAt": "2026-01-26T23:46:58.235296",
+    "updatedAt": "2026-01-26T23:46:58.235296"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 11,
+    "id": "290dc948-94cb-4d77-ba31-a5c56d6a3726",
+    "createdAt": "2026-01-26T23:46:58.238",
+    "updatedAt": "2026-01-26T23:46:58.238"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 11,
+    "id": "b278fd04-ec98-4dfb-a6a5-9a3eb45e1923",
+    "createdAt": "2026-01-26T23:46:58.2395114",
+    "updatedAt": "2026-01-26T23:46:58.2395114"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 11,
+    "id": "0ac73563-9021-4760-b75d-eb85b32069cd",
+    "createdAt": "2026-01-26T23:46:58.2410515",
+    "updatedAt": "2026-01-26T23:46:58.2410515"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 11,
+    "id": "af577e7d-6e52-4787-9dee-abac9c8942d5",
+    "createdAt": "2026-01-26T23:46:58.2425629",
+    "updatedAt": "2026-01-26T23:46:58.2425629"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 11,
+    "id": "dffd8739-787a-43c2-b20c-ba9d1c12de98",
+    "createdAt": "2026-01-26T23:46:58.24508",
+    "updatedAt": "2026-01-26T23:46:58.24508"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 11,
+    "id": "f0ae9eee-4576-4064-a673-bac724586b1b",
+    "createdAt": "2026-01-26T23:46:58.2465914",
+    "updatedAt": "2026-01-26T23:46:58.2465914"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 11,
+    "id": "58d64297-fab8-4118-be87-f1d2d7d992a9",
+    "createdAt": "2026-01-26T23:46:58.2486058",
+    "updatedAt": "2026-01-26T23:46:58.2486058"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 11,
+    "id": "ec51d74c-85ab-492d-84ae-a36fbf9cbb32",
+    "createdAt": "2026-01-26T23:46:58.250295",
+    "updatedAt": "2026-01-26T23:46:58.250295"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 1,
+    "row": 12,
+    "id": "084297ac-4eb9-4b0e-9531-f6e009868218",
+    "createdAt": "2026-01-26T23:46:58.2519148",
+    "updatedAt": "2026-01-26T23:46:58.2519148"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 2,
+    "row": 12,
+    "id": "aa9d0eda-7e47-404d-86b2-a5ffb9f1be2b",
+    "createdAt": "2026-01-26T23:46:58.254434",
+    "updatedAt": "2026-01-26T23:46:58.254434"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 3,
+    "row": 12,
+    "id": "c5748be3-88f6-4a94-b049-e50832ddcbc2",
+    "createdAt": "2026-01-26T23:46:58.2559657",
+    "updatedAt": "2026-01-26T23:46:58.2559657"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 4,
+    "row": 12,
+    "id": "d4e12b2a-b49a-489a-b458-d51ac623f1f6",
+    "createdAt": "2026-01-26T23:46:58.2574989",
+    "updatedAt": "2026-01-26T23:46:58.2574989"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 5,
+    "row": 12,
+    "id": "e241d30a-4c05-4898-adc0-b60dfe1592c6",
+    "createdAt": "2026-01-26T23:46:58.2600458",
+    "updatedAt": "2026-01-26T23:46:58.2600458"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 6,
+    "row": 12,
+    "id": "ec72e6ae-1df6-4e31-99d7-a4b69b226f07",
+    "createdAt": "2026-01-26T23:46:58.2617002",
+    "updatedAt": "2026-01-26T23:46:58.2617002"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 7,
+    "row": 12,
+    "id": "f5dbe280-db9c-428d-8077-9fc9d4557a40",
+    "createdAt": "2026-01-26T23:46:58.2632104",
+    "updatedAt": "2026-01-26T23:46:58.2632104"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 8,
+    "row": 12,
+    "id": "da7e6ece-d85e-4867-9b67-d5ee8f1f24d0",
+    "createdAt": "2026-01-26T23:46:58.2658612",
+    "updatedAt": "2026-01-26T23:46:58.2658612"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 9,
+    "row": 12,
+    "id": "b5e8f9ba-7661-405b-83c4-9c01a1604a1e",
+    "createdAt": "2026-01-26T23:46:58.2678764",
+    "updatedAt": "2026-01-26T23:46:58.2678764"
+  },
+  {
+    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "seatType": "VIP",
+    "number": 10,
+    "row": 12,
+    "id": "cc878604-1125-4143-a7f3-9aa8d8473d40",
+    "createdAt": "2026-01-26T23:46:58.2691251",
+    "updatedAt": "2026-01-26T23:46:58.2691251"
+  }
+]

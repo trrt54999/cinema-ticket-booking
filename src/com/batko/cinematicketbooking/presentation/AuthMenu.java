@@ -1,26 +1,43 @@
-package com.batko.cinematicketbooking.ui.menu;
+package com.batko.cinematicketbooking.presentation;
 
 import com.batko.cinematicketbooking.domain.model.User;
-import com.batko.cinematicketbooking.infrastructure.data.core.UnitOfWork;
-import com.batko.cinematicketbooking.infrastructure.data.impl.json.DataContext;
-import com.batko.cinematicketbooking.infrastructure.data.repository.UserRepository;
-import com.batko.cinematicketbooking.infrastructure.email.EmailServiceImpl;
 import com.batko.cinematicketbooking.service.contract.AuthService;
+import com.batko.cinematicketbooking.service.contract.GenreService;
+import com.batko.cinematicketbooking.service.contract.HallService;
+import com.batko.cinematicketbooking.service.contract.MovieService;
+import com.batko.cinematicketbooking.service.contract.SeatGeneratorService;
+import com.batko.cinematicketbooking.service.contract.SeatService;
+import com.batko.cinematicketbooking.service.contract.SessionService;
+import com.batko.cinematicketbooking.service.contract.TicketService;
 import com.batko.cinematicketbooking.service.dto.UserLoginDto;
 import com.batko.cinematicketbooking.service.dto.UserVerificationDto;
 import com.batko.cinematicketbooking.service.dto.user.UserStoreDto;
-import com.batko.cinematicketbooking.service.impl.AuthServiceImpl;
 import java.util.Scanner;
 
 public class AuthMenu {
 
   private final Scanner s = new Scanner(System.in);
-  private final EmailServiceImpl emailService = new EmailServiceImpl();
-  private final DataContext dataContext = DataContext.getInstance();
-  private final UserRepository userRepository = dataContext.getUserRepository();
-  private final UnitOfWork<User> userUoW = new UnitOfWork<>(userRepository);
-  private final AuthService authService = new AuthServiceImpl(userRepository, userUoW,
-      emailService);
+  private final AuthService authService;
+  private final GenreService genreService;
+  private final MovieService movieService;
+  private final SessionService sessionService;
+  private final HallService hallService;
+  private final TicketService ticketService;
+  private final SeatService seatService;
+  private final SeatGeneratorService seatGeneratorService;
+
+  public AuthMenu(AuthService authService, GenreService genreService, MovieService movieService,
+      SessionService sessionService, HallService hallService, TicketService ticketService,
+      SeatService seatService, SeatGeneratorService seatGeneratorService) {
+    this.authService = authService;
+    this.genreService = genreService;
+    this.movieService = movieService;
+    this.sessionService = sessionService;
+    this.hallService = hallService;
+    this.ticketService = ticketService;
+    this.seatService = seatService;
+    this.seatGeneratorService = seatGeneratorService;
+  }
 
   public void run() {
     System.out.println("Hello! Welcome to cinema ticket booking!");
@@ -29,7 +46,7 @@ public class AuthMenu {
       System.out.print("""
           1. Registration
           2. Login
-          3. Exit
+          0. Exit
           """);
       System.out.print("Choice: ");
 
@@ -38,7 +55,7 @@ public class AuthMenu {
       switch (input) {
         case "1" -> registration();
         case "2" -> login();
-        case "3" -> running = false;
+        case "0" -> running = false;
         default -> System.out.println("Invalid choice! Try again.");
       }
     }
@@ -83,12 +100,16 @@ public class AuthMenu {
     }
 
     while (true) {
-      System.out.print("Please, enter code from email: ");
+      System.out.print("Please, enter code from email (or '0' to cancel): ");
       String codeFromUser = s.nextLine().trim();
+
+      if (codeFromUser.equals("0")) {
+        System.out.println("Registration cancelled by user.");
+        break;
+      }
 
       try {
         UserVerificationDto dto = new UserVerificationDto(email, codeFromUser);
-
         authService.confirmRegistration(dto);
 
         System.out.println("Success! Account created!");
@@ -115,11 +136,31 @@ public class AuthMenu {
     try {
       UserLoginDto dto = new UserLoginDto(email, password);
 
-      authService.login(dto);
+      User user = authService.login(dto);
 
-      System.out.println("Success login!");
+      System.out.println("Success login! Welcome, " + user.getFirstName() + "\uD83C\uDF0D");
+
+      navigateByRole(user);
     } catch (IllegalArgumentException e) {
       System.out.println("Error " + e.getMessage());
+    }
+  }
+
+  private void navigateByRole(User user) {
+    switch (user.getRole()) {
+      case MANAGER -> new ManagerMenu(
+          user,
+          s,
+          genreService,
+          movieService,
+          sessionService,
+          hallService,
+          seatService,
+          seatGeneratorService
+      ).managerMenu();
+      case USER -> new UserMenu(user, s, movieService, ticketService, sessionService,
+          hallService, seatService).userMenu();
+      default -> System.out.println("Unknown role.");
     }
   }
 }

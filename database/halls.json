@@ -1,10 +1,26 @@
 [
   {
-    "name": "Cinema1",
-    "rows": 3,
-    "seatsPerRow": 5,
-    "id": "75743f11-4482-4b50-903a-1a0e6eeac12f",
-    "createdAt": "2026-01-22T20:36:29.0333756",
-    "updatedAt": "2026-01-22T20:36:29.034892"
+    "name": "Red Hall",
+    "rows": 10,
+    "seatsPerRow": 10,
+    "id": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
+    "createdAt": "2026-01-26T23:46:36.5593225",
+    "updatedAt": "2026-01-26T23:46:36.5593225"
+  },
+  {
+    "name": "Blue Hall",
+    "rows": 6,
+    "seatsPerRow": 6,
+    "id": "5df1367e-7524-447d-b636-527cc9862852",
+    "createdAt": "2026-01-26T23:46:48.6289775",
+    "updatedAt": "2026-01-26T23:46:48.6289775"
+  },
+  {
+    "name": "VIP Hall",
+    "rows": 12,
+    "seatsPerRow": 10,
+    "id": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
+    "createdAt": "2026-01-26T23:46:58.0793822",
+    "updatedAt": "2026-01-26T23:46:58.0793822"
   }
 ]

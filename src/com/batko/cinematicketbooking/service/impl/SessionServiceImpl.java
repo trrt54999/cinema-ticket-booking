@@ -9,6 +9,7 @@ import com.batko.cinematicketbooking.service.contract.SessionService;
 import com.batko.cinematicketbooking.service.dto.session.SessionStoreDto;
 import com.batko.cinematicketbooking.service.dto.session.SessionUpdateDto;
 import java.time.LocalDateTime;
+import java.util.Comparator;
 import java.util.List;
 import java.util.UUID;
 
@@ -92,7 +93,9 @@ public class SessionServiceImpl implements SessionService {
 
   @Override
   public List<Session> getByMovie(UUID movieId) {
-    return sessionRepo.findByMovieId(movieId);
+    return sessionRepo.findByMovieId(movieId).stream()
+        .sorted(Comparator.comparing(Session::getStartTime))
+        .toList();
   }
 
   @Override

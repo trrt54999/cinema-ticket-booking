@@ -1,0 +1,112 @@
+[
+  {
+    "userId": "536d936e-69d5-41eb-9ac0-18618476664c",
+    "sessionId": "c0c3ede4-096f-49c7-bdd6-1c9bec0b9980",
+    "seatId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:03:51.0598704",
+    "id": "8a166e1f-b08b-4ebf-9720-b12d49ae8594",
+    "createdAt": "2026-01-27T00:03:51.0593579",
+    "updatedAt": "2026-01-27T00:03:51.0593579"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "536d936e-69d5-41eb-9ac0-18618476664c",
+    "seatId": "c0c3ede4-096f-49c7-bdd6-1c9bec0b9980",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:12:08.0751719",
+    "id": "bad56845-1607-4c7e-a123-836d5150ce35",
+    "createdAt": "2026-01-27T00:12:08.0751719",
+    "updatedAt": "2026-01-27T00:12:08.0751719"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "536d936e-69d5-41eb-9ac0-18618476664c",
+    "seatId": "8594d1f7-4477-45e2-8896-6488f4733a8e",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:12:20.2638464",
+    "id": "956eccca-b62f-444b-ba66-e8676b45a0e9",
+    "createdAt": "2026-01-27T00:12:20.2638464",
+    "updatedAt": "2026-01-27T00:12:20.2638464"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "a6d4bf4d-a92c-46c9-82fb-c7a896489052",
+    "seatId": "dd55cc33-e61d-42c7-ac27-9884a7ad52d3",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:42:04.1176135",
+    "id": "17cf1986-64f5-42eb-9cde-2c39667c1fe5",
+    "createdAt": "2026-01-27T00:42:04.1176135",
+    "updatedAt": "2026-01-27T00:42:04.1176135"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "a9b1e524-51c0-432b-8969-bcc42af7f45a",
+    "seatId": "cdbe960d-268d-4f13-934b-6d34d32e2f5a",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:42:52.2261435",
+    "id": "efd23a16-ab5e-4f40-b1b9-bb186b1ce62c",
+    "createdAt": "2026-01-27T00:42:52.2261435",
+    "updatedAt": "2026-01-27T00:42:52.2261435"
+  },
+  {
+    "userId": "7b62e205-83c5-457e-85b4-0a28fff90e96",
+    "sessionId": "b8c73058-d5f5-4f95-a1fd-e8d4c15c18d5",
+    "seatId": "c0c3ede4-096f-49c7-bdd6-1c9bec0b9980",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:43:19.6672492",
+    "id": "95d4cbfe-675f-4b4f-84ce-59a24bfca07c",
+    "createdAt": "2026-01-27T00:43:19.6672492",
+    "updatedAt": "2026-01-27T00:43:19.6672492"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "b8c73058-d5f5-4f95-a1fd-e8d4c15c18d5",
+    "seatId": "8594d1f7-4477-45e2-8896-6488f4733a8e",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:43:37.1361134",
+    "id": "90d64080-423f-4df2-8d8d-9c93c31623b5",
+    "createdAt": "2026-01-27T00:43:37.1361134",
+    "updatedAt": "2026-01-27T00:43:37.1361134"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "a6d4bf4d-a92c-46c9-82fb-c7a896489052",
+    "seatId": "58f56119-f98c-44cc-928d-c982d7d63449",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:44:48.1163214",
+    "id": "392ff275-1a67-4c60-9d06-e3edfc1fc817",
+    "createdAt": "2026-01-27T00:44:48.1163214",
+    "updatedAt": "2026-01-27T00:44:48.1163214"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "536d936e-69d5-41eb-9ac0-18618476664c",
+    "seatId": "ee50d918-b5e9-428b-97e4-9dda41be5523",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:45:24.2452612",
+    "id": "53a6f88b-669a-4ee3-9ae5-acfc75a3fdb9",
+    "createdAt": "2026-01-27T00:45:24.2452612",
+    "updatedAt": "2026-01-27T00:45:24.2452612"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "536d936e-69d5-41eb-9ac0-18618476664c",
+    "seatId": "42a06861-d616-4861-98fb-ac10149a3d47",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:45:48.4252634",
+    "id": "a0f9f6da-4451-4cbe-8d64-2ddff3427cc1",
+    "createdAt": "2026-01-27T00:45:48.4252634",
+    "updatedAt": "2026-01-27T00:45:48.4252634"
+  },
+  {
+    "userId": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "sessionId": "536d936e-69d5-41eb-9ac0-18618476664c",
+    "seatId": "fc7d7455-0264-43cb-b8a9-cda535c0c82f",
+    "status": "BOOKED",
+    "purchaseDate": "2026-01-27T00:45:50.4236548",
+    "id": "a8037768-297a-4e15-8a95-24cd388e213e",
+    "createdAt": "2026-01-27T00:45:50.4236548",
+    "updatedAt": "2026-01-27T00:45:50.4236548"
+  }
+]

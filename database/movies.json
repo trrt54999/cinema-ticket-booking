@@ -1,0 +1,29 @@
+[
+  {
+    "managerId": "ef984901-8b5c-4161-98c1-01699d9a6755",
+    "title": "Step Brothers",
+    "description": "Step Brothers is a 2008 American comedy film directed by Adam McKay, produced by Jimmy Miller and Judd Apatow, and written by Will Ferrell and McKay from a story by Ferrell, McKay, and John C. Reilly. It follows Brennan (Ferrell) and Dale (Reilly), two grown men who are forced to live together as stepbrothers after their single parents, with whom they still live, marry each other. Richard Jenkins, Mary Steenburgen, Adam Scott, and Kathryn Hahn also star.",
+    "durationMinutes": 240,
+    "id": "72319c57-e462-47bf-b927-ffef01b25b8c",
+    "createdAt": "2026-01-26T21:38:43.7467663",
+    "updatedAt": "2026-01-26T21:38:43.7467663"
+  },
+  {
+    "managerId": "ef984901-8b5c-4161-98c1-01699d9a6755",
+    "title": "Civil War",
+    "description": "Civil War is a 2024 dystopian action thriller film written and directed by Alex Garland, starring Kirsten Dunst, Wagner Moura, Cailee Spaeny, Stephen McKinley Henderson, Sonoya Mizuno, and Nick Offerman. Set during a civil war fought across the United States between a despotic federal government and secessionist movements, the plot follows a group of war journalists traveling from New York City to Washington, D.C., to interview the President of the United States before rebels take the capital city.",
+    "durationMinutes": 360,
+    "id": "9ceacfaa-cfb9-46e4-b01f-9737168f921e",
+    "createdAt": "2026-01-26T21:41:33.7868739",
+    "updatedAt": "2026-01-26T21:41:33.7868739"
+  },
+  {
+    "managerId": "ef984901-8b5c-4161-98c1-01699d9a6755",
+    "title": "The Rip",
+    "description": "The Rip is a 2026 American action thriller film written and directed by Joe Carnahan who developed the story with Michael McGrale. The film stars Matt Damon and Ben Affleck as police officers within the narcotics unit of the Miami-Dade Police Department. It also stars Steven Yeun, Teyana Taylor, Sasha Calle, Catalina Sandino Moreno, Scott Adkins, and Kyle Chandler.",
+    "durationMinutes": 135,
+    "id": "2fc5f2bb-9ade-4381-93b8-7d1cdd38ec67",
+    "createdAt": "2026-01-26T23:48:46.7691552",
+    "updatedAt": "2026-01-26T23:48:46.7691552"
+  }
+]

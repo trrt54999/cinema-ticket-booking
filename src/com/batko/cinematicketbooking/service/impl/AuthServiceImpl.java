@@ -4,7 +4,7 @@ import com.batko.cinematicketbooking.domain.enums.UserRole;
 import com.batko.cinematicketbooking.domain.model.User;
 import com.batko.cinematicketbooking.infrastructure.data.core.UnitOfWork;
 import com.batko.cinematicketbooking.infrastructure.data.repository.UserRepository;
-import com.batko.cinematicketbooking.infrastructure.email.EmailServiceImpl;
+import com.batko.cinematicketbooking.infrastructure.email.EmailService;
 import com.batko.cinematicketbooking.service.contract.AuthService;
 import com.batko.cinematicketbooking.service.dto.UserLoginDto;
 import com.batko.cinematicketbooking.service.dto.UserVerificationDto;
@@ -13,17 +13,18 @@ import com.batko.cinematicketbooking.service.util.CodeGenerator;
 import com.batko.cinematicketbooking.service.util.EmailTemplate;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import org.mindrot.jbcrypt.BCrypt;
 
 public class AuthServiceImpl implements AuthService {
 
   private final UserRepository userRepo;
   private final UnitOfWork<User> userUoW;
-  private final EmailServiceImpl emailService;
+  private final EmailService emailService;
 
   private final Map<String, PendingRegistration> pendingUsers = new ConcurrentHashMap<>();
 
   public AuthServiceImpl(UserRepository userRepo, UnitOfWork<User> userUoW,
-      EmailServiceImpl emailService) {
+      EmailService emailService) {
     this.userRepo = userRepo;
     this.userUoW = userUoW;
     this.emailService = emailService;
@@ -53,11 +54,13 @@ public class AuthServiceImpl implements AuthService {
 
     if (pending.getVerificationCode().equals(dto.verificationCode())) {
       UserStoreDto storeDto = pending.getDto();
+      String password = BCrypt.hashpw(storeDto.password(), BCrypt.gensalt());
+
       User user = new User(
           storeDto.firstName(),
           storeDto.lastName(),
           storeDto.email(),
-          storeDto.password(), // TODO: Додати хешування тут
+          password,
           storeDto.age(),
           UserRole.USER
       );
@@ -85,7 +88,7 @@ public class AuthServiceImpl implements AuthService {
     User user = userRepo.findByEmail(dto.email())
         .orElseThrow(() -> new IllegalArgumentException("User not found"));
 
-    if (!user.getPasswordHash().equals(dto.password())) {
+    if (!BCrypt.checkpw(dto.password(), user.getPasswordHash())) {
       throw new IllegalArgumentException("Invalid password");
     }
     return user;

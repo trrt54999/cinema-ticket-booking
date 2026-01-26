@@ -12,4 +12,6 @@ public interface TicketService {
   Ticket cancel(UUID ticketId);
 
   List<Ticket> getTicketsByUser(UUID userId);
+
+  List<Ticket> getTicketsBySession(UUID sessionId);
 }

@@ -11,5 +11,6 @@
     <orderEntry type="library" name="gson-2.13.2" level="project" />
     <orderEntry type="library" name="jakarta.activation-api-2.1.4" level="project" />
     <orderEntry type="library" name="jakarta.mail-2.0.2" level="project" />
+    <orderEntry type="library" name="jbcrypt-0.4" level="project" />
   </component>
 </module>

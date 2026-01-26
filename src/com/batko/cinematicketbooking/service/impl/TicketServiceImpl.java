@@ -49,4 +49,13 @@ public class TicketServiceImpl implements TicketService {
   public List<Ticket> getTicketsByUser(UUID userId) {
     return ticketRepo.findByUserId(userId);
   }
+
+  @Override
+  public List<Ticket> getTicketsBySession(UUID sessionId) {
+    List<Ticket> tickets = ticketRepo.findBySessionId(sessionId);
+
+    return tickets.stream()
+        .filter(t -> t.getStatus() != TicketStatus.CANCELED)
+        .toList();
+  }
 }

@@ -1,68 +1,35 @@
 [
   {
-    "firstName": "Lesyawe",
-    "lastName": "Ukrainka",
-    "email": "lesya@test.com",
-    "passwordHash": "pass",
-    "age": 28,
-    "role": "USER",
-    "id": "7576b5bf-bb62-4875-95ec-b46566b2841d",
-    "createdAt": "2026-01-22T20:36:29.034892",
-    "updatedAt": "2026-01-22T20:36:29.034892"
+    "firstName": "qwerty",
+    "lastName": "qwerty",
+    "email": "moki22810sobakacom@gmail.com",
+    "passwordHash": "$2a$10$XtMaXbD68g6soepDsghXCe/WFYztt.TWurjX4Ii83ACaM4DWAgLGi",
+    "age": 18,
+    "role": "MANAGER",
+    "id": "ef984901-8b5c-4161-98c1-01699d9a6755",
+    "createdAt": "2026-01-26T00:39:58.9960799",
+    "updatedAt": "2026-01-26T00:39:58.9971137"
   },
   {
-    "firstName": "Lesyawqe",
-    "lastName": "Ukrainka",
-    "email": "admin@test.com",
-    "passwordHash": "pass",
-    "age": 28,
+    "firstName": "Danya",
+    "lastName": "Batko",
+    "email": "danelol2008@gmail.com",
+    "passwordHash": "$2a$10$COTJjb7mj2P4q1ZCYI3W/OYt1XrQApCXM8LvBHWj0tAThG1Ur0Z3S",
+    "age": 23,
     "role": "USER",
-    "id": "0c5dc97c-e086-444c-b529-0a5092d3b325",
-    "createdAt": "2026-01-22T20:36:29.0360013",
-    "updatedAt": "2026-01-22T20:36:29.0360013"
+    "id": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
+    "createdAt": "2026-01-26T21:44:08.7314996",
+    "updatedAt": "2026-01-26T21:44:08.7314996"
   },
   {
-    "firstName": "faa",
-    "lastName": "dsa",
-    "email": "dq2@gmail.com",
-    "passwordHash": "12",
-    "age": 12,
+    "firstName": "Vanya",
+    "lastName": "Ivanov",
+    "email": "sorynoob228@gmail.com",
+    "passwordHash": "$2a$10$tIfD9C95Hgs2Wbx5QRvjTucsX1sGORKxm26vKI.hD2zbvdVFk06U6",
+    "age": 19,
     "role": "USER",
-    "id": "75e05396-aa3c-44cc-8f93-b9b693232499",
-    "createdAt": "2026-01-23T17:52:52.4446766",
-    "updatedAt": "2026-01-23T17:52:52.4446766"
-  },
-  {
-    "firstName": "faa",
-    "lastName": "dsa",
-    "email": "d1q2@gmail.com",
-    "passwordHash": "12",
-    "age": 12,
-    "role": "USER",
-    "id": "9ad80775-6364-455b-9888-054b6f70f3bc",
-    "createdAt": "2026-01-23T19:58:08.9848192",
-    "updatedAt": "2026-01-23T19:58:08.9848192"
-  },
-  {
-    "firstName": "faeewqa",
-    "lastName": "deqwsa",
-    "email": "ewqqwe2@gmail.com",
-    "passwordHash": "12qwerqs",
-    "age": 12,
-    "role": "USER",
-    "id": "3b3d6afe-2371-4c2e-933d-b9a8eb97dd73",
-    "createdAt": "2026-01-23T20:14:35.8482398",
-    "updatedAt": "2026-01-23T20:14:35.8482398"
-  },
-  {
-    "firstName": "faeewqa",
-    "lastName": "deqwsa",
-    "email": "ewqqwwe2@gmail.com",
-    "passwordHash": "12qwerqs",
-    "age": 12,
-    "role": "USER",
-    "id": "ff958774-489b-4827-83eb-36c0fc8ddbc8",
-    "createdAt": "2026-01-23T21:29:10.1434505",
-    "updatedAt": "2026-01-23T21:29:10.1434505"
+    "id": "7b62e205-83c5-457e-85b4-0a28fff90e96",
+    "createdAt": "2026-01-27T00:15:34.6095157",
+    "updatedAt": "2026-01-27T00:15:34.6095157"
   }
 ]

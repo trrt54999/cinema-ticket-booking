@@ -22,7 +22,7 @@ public record MovieStoreDto(String title, String description, int durationMinute
       throw new IllegalArgumentException(ValidationError.MOVIE_MANAGER_REQUIRED.getMessage());
     }
     if (genreIds == null) {
-      throw new IllegalArgumentException();
+      throw new IllegalArgumentException(ValidationError.MOVIE_GENRE_EMPTY.getMessage());
     }
   }
 }
