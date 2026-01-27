@@ -1,23 +1,79 @@
 [
   {
-    "movieId": "9ceacfaa-cfb9-46e4-b01f-9737168f921e",
-    "genreId": "35a45025-82f4-4086-a961-7f1880a5328f",
-    "id": "886ac526-6527-446b-98c4-9f714caec86c",
-    "createdAt": "2026-01-26T21:41:33.78738",
-    "updatedAt": "2026-01-26T21:41:33.78738"
+    "movieId": "ec5958c7-9f55-4f94-af78-4ee92507b19e",
+    "genreId": "7a47bc8d-0ef4-4590-b4de-aedeb8964e7c",
+    "id": "a0266d97-ff76-4b51-8d6d-791e49dee605",
+    "createdAt": "2026-01-27T20:54:05.8291556",
+    "updatedAt": "2026-01-27T20:54:05.8291556"
   },
   {
-    "movieId": "9ceacfaa-cfb9-46e4-b01f-9737168f921e",
-    "genreId": "dbf7d4ed-7027-4dfa-81c7-e38ec1c6e0a6",
-    "id": "45fdd622-b58b-4a52-a852-39583c1170d8",
-    "createdAt": "2026-01-26T21:41:33.78738",
-    "updatedAt": "2026-01-26T21:41:33.78738"
+    "movieId": "0c46b036-3fb7-478b-aa13-f156b284887d",
+    "genreId": "80b3bf15-f87a-4c41-bd3b-eb06e7b26f26",
+    "id": "ca922018-b044-488e-94c9-690eca944e79",
+    "createdAt": "2026-01-27T20:54:40.2091924",
+    "updatedAt": "2026-01-27T20:54:40.2091924"
   },
   {
-    "movieId": "2fc5f2bb-9ade-4381-93b8-7d1cdd38ec67",
-    "genreId": "dbf7d4ed-7027-4dfa-81c7-e38ec1c6e0a6",
-    "id": "e614b636-be1f-4344-82f9-e7e51ed5ed9d",
-    "createdAt": "2026-01-26T23:48:46.7691552",
-    "updatedAt": "2026-01-26T23:48:46.7691552"
+    "movieId": "0c46b036-3fb7-478b-aa13-f156b284887d",
+    "genreId": "1a0805e5-e9dc-49e5-bcf6-21cd0037a9d7",
+    "id": "261c23b7-6bc8-44f3-ab21-a686ffccf7ac",
+    "createdAt": "2026-01-27T20:54:40.2091924",
+    "updatedAt": "2026-01-27T20:54:40.2091924"
+  },
+  {
+    "movieId": "38e0aa1f-1afb-4709-b5e9-86c120a2fc3f",
+    "genreId": "80b3bf15-f87a-4c41-bd3b-eb06e7b26f26",
+    "id": "9a333dc1-b829-4d2e-987b-bc2b6355cb00",
+    "createdAt": "2026-01-27T20:55:10.9871061",
+    "updatedAt": "2026-01-27T20:55:10.9871061"
+  },
+  {
+    "movieId": "38e0aa1f-1afb-4709-b5e9-86c120a2fc3f",
+    "genreId": "43a10f7b-0f2e-4ecf-8b52-2f9b2b5dd868",
+    "id": "e5edce28-8e48-41f6-8cde-751516faa729",
+    "createdAt": "2026-01-27T20:55:10.9871061",
+    "updatedAt": "2026-01-27T20:55:10.9871061"
+  },
+  {
+    "movieId": "38e0aa1f-1afb-4709-b5e9-86c120a2fc3f",
+    "genreId": "7a47bc8d-0ef4-4590-b4de-aedeb8964e7c",
+    "id": "fd39838c-a869-4c60-82e8-f4ea6b8702b3",
+    "createdAt": "2026-01-27T20:55:10.9871061",
+    "updatedAt": "2026-01-27T20:55:10.9871061"
+  },
+  {
+    "movieId": "8294cb2c-912c-4eae-92e7-f9d659a3ab5b",
+    "genreId": "50ac10eb-3f05-4502-880c-2511789ad5b2",
+    "id": "6d43f153-aa8b-41aa-8cca-a4ebe9025b1f",
+    "createdAt": "2026-01-27T20:55:38.3277782",
+    "updatedAt": "2026-01-27T20:55:38.3277782"
+  },
+  {
+    "movieId": "8294cb2c-912c-4eae-92e7-f9d659a3ab5b",
+    "genreId": "1a0805e5-e9dc-49e5-bcf6-21cd0037a9d7",
+    "id": "059e9b5b-9612-4130-8864-28fe348184a8",
+    "createdAt": "2026-01-27T20:55:38.3277782",
+    "updatedAt": "2026-01-27T20:55:38.3277782"
+  },
+  {
+    "movieId": "2d4cb028-d8ed-46dc-98e6-7cc6ad0fb455",
+    "genreId": "80b3bf15-f87a-4c41-bd3b-eb06e7b26f26",
+    "id": "4953f4fb-0769-4e8a-9f25-9f758004f6f2",
+    "createdAt": "2026-01-27T20:56:48.6576386",
+    "updatedAt": "2026-01-27T20:56:48.6576386"
+  },
+  {
+    "movieId": "2d4cb028-d8ed-46dc-98e6-7cc6ad0fb455",
+    "genreId": "43a10f7b-0f2e-4ecf-8b52-2f9b2b5dd868",
+    "id": "a303dd5d-7aa8-4add-8cf0-9576fc436735",
+    "createdAt": "2026-01-27T20:56:48.6576386",
+    "updatedAt": "2026-01-27T20:56:48.6576386"
+  },
+  {
+    "movieId": "2d4cb028-d8ed-46dc-98e6-7cc6ad0fb455",
+    "genreId": "cb550798-6193-4a0c-9f18-5ceff6206c38",
+    "id": "7c0d2a4a-d246-4517-b2f2-c40c17395504",
+    "createdAt": "2026-01-27T20:56:48.6576386",
+    "updatedAt": "2026-01-27T20:56:48.6576386"
   }
 ]

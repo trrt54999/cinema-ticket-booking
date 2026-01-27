@@ -6,6 +6,7 @@ import com.batko.cinematicketbooking.infrastructure.data.repository.UserReposito
 import com.batko.cinematicketbooking.service.contract.UserService;
 import com.batko.cinematicketbooking.service.dto.user.UserUpdateDto;
 import java.util.UUID;
+import org.mindrot.jbcrypt.BCrypt;
 
 public class UserServiceImpl implements UserService {
 
@@ -36,7 +37,12 @@ public class UserServiceImpl implements UserService {
       user.setAge(dto.age());
       isDirty = true;
     }
-    // todo maybe зміна паролю..
+    if (dto.password() != null && !dto.password().isBlank()) {
+      String hashedPassword = BCrypt.hashpw(dto.password(), BCrypt.gensalt());
+
+      user.setPasswordHash(hashedPassword);
+      isDirty = true;
+    }
     if (isDirty) {
       userUoW.registerDirty(user);
       userUoW.commit();

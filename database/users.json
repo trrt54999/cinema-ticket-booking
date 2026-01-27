@@ -3,33 +3,33 @@
     "firstName": "qwerty",
     "lastName": "qwerty",
     "email": "moki22810sobakacom@gmail.com",
-    "passwordHash": "$2a$10$XtMaXbD68g6soepDsghXCe/WFYztt.TWurjX4Ii83ACaM4DWAgLGi",
+    "passwordHash": "$2a$10$QPEkfP6cjMAilZsPlo7gA.3r4uf1n1GEpC.JTxX5vUbSIgHuDTvlK",
     "age": 18,
     "role": "MANAGER",
-    "id": "ef984901-8b5c-4161-98c1-01699d9a6755",
-    "createdAt": "2026-01-26T00:39:58.9960799",
-    "updatedAt": "2026-01-26T00:39:58.9971137"
+    "id": "4aa278ff-b637-4807-a106-358cc8a86787",
+    "createdAt": "2026-01-27T20:50:39.8423222",
+    "updatedAt": "2026-01-27T20:50:39.8423222"
   },
   {
     "firstName": "Danya",
     "lastName": "Batko",
     "email": "danelol2008@gmail.com",
-    "passwordHash": "$2a$10$COTJjb7mj2P4q1ZCYI3W/OYt1XrQApCXM8LvBHWj0tAThG1Ur0Z3S",
-    "age": 23,
-    "role": "USER",
-    "id": "813ff6c1-0193-4c38-8c79-6cb6cc716c07",
-    "createdAt": "2026-01-26T21:44:08.7314996",
-    "updatedAt": "2026-01-26T21:44:08.7314996"
-  },
-  {
-    "firstName": "Vanya",
-    "lastName": "Ivanov",
-    "email": "sorynoob228@gmail.com",
-    "passwordHash": "$2a$10$tIfD9C95Hgs2Wbx5QRvjTucsX1sGORKxm26vKI.hD2zbvdVFk06U6",
+    "passwordHash": "$2a$10$Xd0KyfV9liPiorVhs.WfvulWxh1HLTNX6M7ZrAFz5WOh/wL.elCtS",
     "age": 19,
     "role": "USER",
-    "id": "7b62e205-83c5-457e-85b4-0a28fff90e96",
-    "createdAt": "2026-01-27T00:15:34.6095157",
-    "updatedAt": "2026-01-27T00:15:34.6095157"
+    "id": "7a9031f3-04ea-4a28-bd0c-4cb982b83ad5",
+    "createdAt": "2026-01-27T20:59:57.3433323",
+    "updatedAt": "2026-01-27T20:59:57.3433323"
+  },
+  {
+    "firstName": "soryn",
+    "lastName": "sorya",
+    "email": "sorynoob228@gmail.com",
+    "passwordHash": "$2a$10$weHodqfd0di2tVKE54KW/eZFFkISCYpO/ZDUw6A613iG1tzPgUf3y",
+    "age": 23,
+    "role": "USER",
+    "id": "77a63c5a-17ef-4902-868b-c6ce9ea05c82",
+    "createdAt": "2026-01-27T21:03:52.1071973",
+    "updatedAt": "2026-01-27T21:03:52.1071973"
   }
 ]

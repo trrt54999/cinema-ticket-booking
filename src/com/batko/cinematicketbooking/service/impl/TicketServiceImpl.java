@@ -21,14 +21,33 @@ public class TicketServiceImpl implements TicketService {
 
   @Override
   public Ticket create(TicketStoreDto dto) {
-    if (ticketRepo.existsBySessionIdAndSeatId(dto.sessionId(), dto.seatId())) {
-      throw new IllegalArgumentException("This seat is already booked");
+    List<Ticket> existingTickets = ticketRepo.findBySessionId(dto.sessionId());
+
+    Ticket existingTicket = existingTickets.stream()
+        .filter(t -> t.getSeatId().equals(dto.seatId()))
+        .findFirst()
+        .orElse(null);
+
+    if (existingTicket != null) {
+      if (existingTicket.getStatus() != TicketStatus.CANCELED) {
+        throw new IllegalArgumentException("This seat is already booked");
+      }
+
+      existingTicket.setUserId(dto.userId());
+
+      existingTicket.setPurchaseDate(java.time.LocalDateTime.now());
+      existingTicket.setStatus(TicketStatus.BOOKED);
+
+      ticketUoW.registerDirty(existingTicket);
+      ticketUoW.commit();
+
+      return existingTicket;
     }
     Ticket ticket = new Ticket(dto.userId(), dto.sessionId(), dto.seatId());
 
     ticketUoW.registerNew(ticket);
     ticketUoW.commit();
-
+    
     return ticket;
   }
 

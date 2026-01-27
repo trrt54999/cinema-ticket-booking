@@ -6,11 +6,12 @@ import com.batko.cinematicketbooking.infrastructure.data.core.UnitOfWork;
 import com.batko.cinematicketbooking.infrastructure.data.repository.UserRepository;
 import com.batko.cinematicketbooking.infrastructure.email.EmailService;
 import com.batko.cinematicketbooking.service.contract.AuthService;
-import com.batko.cinematicketbooking.service.dto.UserLoginDto;
-import com.batko.cinematicketbooking.service.dto.UserVerificationDto;
+import com.batko.cinematicketbooking.service.dto.user.UserLoginDto;
 import com.batko.cinematicketbooking.service.dto.user.UserStoreDto;
+import com.batko.cinematicketbooking.service.dto.user.UserVerificationDto;
 import com.batko.cinematicketbooking.service.util.CodeGenerator;
 import com.batko.cinematicketbooking.service.util.EmailTemplate;
+import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import org.mindrot.jbcrypt.BCrypt;
@@ -50,6 +51,11 @@ public class AuthServiceImpl implements AuthService {
 
     if (pending == null) {
       throw new IllegalArgumentException("Registration session not found or expired.");
+    }
+
+    if (pending.getExpirationTime().isBefore(LocalDateTime.now())) {
+      pendingUsers.remove(dto.email());
+      throw new IllegalArgumentException("Verification code expired. Please register again.");
     }
 
     if (pending.getVerificationCode().equals(dto.verificationCode())) {
@@ -98,12 +104,15 @@ public class AuthServiceImpl implements AuthService {
 
     private final UserStoreDto dto;
     private final String verificationCode;
+    private final LocalDateTime expirationTime;
+
     private int attempts;
 
     public PendingRegistration(UserStoreDto dto, String verificationCode) {
       this.dto = dto;
       this.verificationCode = verificationCode;
       this.attempts = 0;
+      this.expirationTime = LocalDateTime.now().plusMinutes(5);
     }
 
     public void incrementAttempts() {
@@ -120,6 +129,10 @@ public class AuthServiceImpl implements AuthService {
 
     public String getVerificationCode() {
       return verificationCode;
+    }
+
+    public LocalDateTime getExpirationTime() {
+      return expirationTime;
     }
   }
 }

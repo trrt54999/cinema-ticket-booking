@@ -1,5 +1,6 @@
 package com.batko.cinematicketbooking.infrastructure.data.impl.json;
 
+import com.batko.cinematicketbooking.domain.enums.TicketStatus;
 import com.batko.cinematicketbooking.domain.model.Ticket;
 import com.batko.cinematicketbooking.infrastructure.data.repository.TicketRepository;
 import com.google.gson.reflect.TypeToken;
@@ -13,8 +14,7 @@ public class JsonTicketRepository extends CachedJsonRepository<Ticket> implement
     super(
         filename,
         new TypeToken<ArrayList<Ticket>>() {
-        }.getType()
-    );
+        }.getType());
   }
 
   @Override
@@ -29,9 +29,9 @@ public class JsonTicketRepository extends CachedJsonRepository<Ticket> implement
 
   @Override
   public boolean existsBySessionIdAndSeatId(UUID sessionId, UUID seatId) {
-    return findFirstBy(ticket ->
-        ticket.getSessionId().equals(sessionId) &&
-            ticket.getSeatId().equals(seatId)
+    return findFirstBy(ticket -> ticket.getSessionId().equals(sessionId) &&
+        ticket.getSeatId().equals(seatId) &&
+        ticket.getStatus() != TicketStatus.CANCELED
     ).isPresent();
   }
 }

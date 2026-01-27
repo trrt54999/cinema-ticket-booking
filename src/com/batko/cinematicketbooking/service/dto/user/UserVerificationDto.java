@@ -1,4 +1,4 @@
-package com.batko.cinematicketbooking.service.dto;
+package com.batko.cinematicketbooking.service.dto.user;
 
 import com.batko.cinematicketbooking.domain.enums.ValidationError;
 

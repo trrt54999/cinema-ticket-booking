@@ -5,6 +5,7 @@ import com.batko.cinematicketbooking.domain.model.MovieGenre;
 import com.batko.cinematicketbooking.infrastructure.data.core.UnitOfWork;
 import com.batko.cinematicketbooking.infrastructure.data.repository.MovieGenreRepository;
 import com.batko.cinematicketbooking.infrastructure.data.repository.MovieRepository;
+import com.batko.cinematicketbooking.infrastructure.data.repository.SessionRepository;
 import com.batko.cinematicketbooking.service.contract.MovieService;
 import com.batko.cinematicketbooking.service.dto.movie.MovieStoreDto;
 import com.batko.cinematicketbooking.service.dto.movie.MovieUpdateDto;
@@ -15,6 +16,7 @@ public class MovieServiceImpl implements MovieService {
 
   private final MovieRepository movieRepo;
   private final MovieGenreRepository movieGenreRepo;
+  private final SessionRepository sessionRepo;
 
   private final UnitOfWork<Movie> movieUoW;
   private final UnitOfWork<MovieGenre> movieGenreUoW;
@@ -22,10 +24,12 @@ public class MovieServiceImpl implements MovieService {
   public MovieServiceImpl(
       MovieRepository movieRepo,
       MovieGenreRepository movieGenreRepo,
+      SessionRepository sessionRepo,
       UnitOfWork<Movie> movieUoW,
       UnitOfWork<MovieGenre> movieGenreUoW) {
     this.movieRepo = movieRepo;
     this.movieGenreRepo = movieGenreRepo;
+    this.sessionRepo = sessionRepo;
     this.movieUoW = movieUoW;
     this.movieGenreUoW = movieGenreUoW;
   }
@@ -40,8 +44,7 @@ public class MovieServiceImpl implements MovieService {
         dto.managerId(),
         dto.title(),
         dto.description(),
-        dto.durationMinutes()
-    );
+        dto.durationMinutes());
     movieUoW.registerNew(movie);
     movieUoW.commit();
 
@@ -89,6 +92,11 @@ public class MovieServiceImpl implements MovieService {
 
   @Override
   public void delete(UUID movieId) {
+    if (!sessionRepo.findByMovieId(movieId).isEmpty()) {
+      throw new IllegalStateException(
+          "Cannot delete movie with active sessions. Delete sessions first.");
+    }
+
     Movie movie = getById(movieId);
 
     List<MovieGenre> genres = movieGenreRepo.findByMovieId(movieId);

@@ -43,7 +43,6 @@ import com.batko.cinematicketbooking.service.impl.UserServiceImpl;
 
 public class Main {
 
-
   static void main(String[] args) {
     DataContext dataContext = DataContext.getInstance();
 
@@ -78,10 +77,10 @@ public class Main {
     MovieGenreService movieGenreService = new MovieGenreServiceImpl(movieGenreRepository,
         movieGenreUoW);
     MovieService movieService = new MovieServiceImpl(movieRepository, movieGenreRepository,
-        movieUoW, movieGenreUoW);
+        sessionRepository, movieUoW, movieGenreUoW);
     SeatService seatService = new SeatServiceImpl(seatRepository, hallRepository, seatUoW);
     SessionService sessionService = new SessionServiceImpl(sessionRepository, movieRepository,
-        sessionUoW);
+        ticketRepository, sessionUoW, ticketUoW);
     TicketService ticketService = new TicketServiceImpl(ticketRepository, ticketUoW);
     UserService userService = new UserServiceImpl(userRepository, userUoW);
     SeatGeneratorService seatGeneratorService = new SeatGeneratorServiceImpl(seatService);
@@ -94,8 +93,8 @@ public class Main {
         hallService,
         ticketService,
         seatService,
-        seatGeneratorService
-    );
+        seatGeneratorService,
+        userService);
     authMenu.run();
   }
 }

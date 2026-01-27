@@ -12,5 +12,9 @@
     <orderEntry type="library" name="jakarta.activation-api-2.1.4" level="project" />
     <orderEntry type="library" name="jakarta.mail-2.0.2" level="project" />
     <orderEntry type="library" name="jbcrypt-0.4" level="project" />
+    <orderEntry type="library" name="jline-console-ui-3.30.6" level="project" />
+    <orderEntry type="library" name="jline-terminal-jna-3.30.6" level="project" />
+    <orderEntry type="library" name="jline-builtins-3.30.6" level="project" />
+    <orderEntry type="library" name="jline-3.30.6" level="project" />
   </component>
 </module>

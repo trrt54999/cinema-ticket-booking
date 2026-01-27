@@ -1,46 +1,68 @@
 [
   {
-    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
-    "movieId": "72319c57-e462-47bf-b927-ffef01b25b8c",
-    "managerId": "ef984901-8b5c-4161-98c1-01699d9a6755",
+    "hallId": "8d15bc1c-e11a-4c28-aa8e-03a1c6197bde",
+    "movieId": "ec5958c7-9f55-4f94-af78-4ee92507b19e",
+    "managerId": "4aa278ff-b637-4807-a106-358cc8a86787",
     "price": 10,
-    "startTime": "2026-05-12T12:30:00",
-    "endTime": "2026-05-12T16:30:00",
-    "id": "536d936e-69d5-41eb-9ac0-18618476664c",
-    "createdAt": "2026-01-26T23:47:20.4789177",
-    "updatedAt": "2026-01-26T23:47:20.4789177"
+    "startTime": "2026-12-12T13:30:00",
+    "endTime": "2026-12-12T17:30:00",
+    "id": "03096ee8-e0af-4704-929d-29ff417ec071",
+    "createdAt": "2026-01-27T20:58:05.4664726",
+    "updatedAt": "2026-01-27T20:58:05.4664726"
   },
   {
-    "hallId": "5df1367e-7524-447d-b636-527cc9862852",
-    "movieId": "9ceacfaa-cfb9-46e4-b01f-9737168f921e",
-    "managerId": "ef984901-8b5c-4161-98c1-01699d9a6755",
-    "price": 5,
-    "startTime": "2026-12-09T15:30:00",
-    "endTime": "2026-12-09T21:30:00",
-    "id": "a9b1e524-51c0-432b-8969-bcc42af7f45a",
-    "createdAt": "2026-01-26T23:47:48.4599863",
-    "updatedAt": "2026-01-26T23:47:48.4599863"
-  },
-  {
-    "hallId": "6298592b-9247-4c9f-8eb7-6fa433bb0dff",
-    "movieId": "9ceacfaa-cfb9-46e4-b01f-9737168f921e",
-    "managerId": "ef984901-8b5c-4161-98c1-01699d9a6755",
+    "hallId": "364c7eaf-3ce7-4d37-afd4-57401fce1dce",
+    "movieId": "0c46b036-3fb7-478b-aa13-f156b284887d",
+    "managerId": "4aa278ff-b637-4807-a106-358cc8a86787",
     "price": 10,
-    "startTime": "2026-03-05T09:00:00",
-    "endTime": "2026-03-05T15:00:00",
-    "id": "a6d4bf4d-a92c-46c9-82fb-c7a896489052",
-    "createdAt": "2026-01-26T23:48:11.4794692",
-    "updatedAt": "2026-01-26T23:48:11.4794692"
+    "startTime": "2026-09-09T19:00:00",
+    "endTime": "2026-09-10T01:00:00",
+    "id": "2f3d8373-65af-43b8-8dd5-3f2a678c9736",
+    "createdAt": "2026-01-27T20:58:15.7358003",
+    "updatedAt": "2026-01-27T20:58:15.7358003"
   },
   {
-    "hallId": "c5d9fc66-00cd-43d8-9f68-4545dbcc6332",
-    "movieId": "2fc5f2bb-9ade-4381-93b8-7d1cdd38ec67",
-    "managerId": "ef984901-8b5c-4161-98c1-01699d9a6755",
-    "price": 5,
-    "startTime": "2026-04-12T12:20:00",
-    "endTime": "2026-04-12T14:35:00",
-    "id": "b8c73058-d5f5-4f95-a1fd-e8d4c15c18d5",
-    "createdAt": "2026-01-26T23:49:11.5072778",
-    "updatedAt": "2026-01-26T23:49:11.5072778"
+    "hallId": "8d15bc1c-e11a-4c28-aa8e-03a1c6197bde",
+    "movieId": "38e0aa1f-1afb-4709-b5e9-86c120a2fc3f",
+    "managerId": "4aa278ff-b637-4807-a106-358cc8a86787",
+    "price": 25,
+    "startTime": "2026-12-15T09:30:00",
+    "endTime": "2026-12-15T11:50:00",
+    "id": "c9beb8c6-222d-43f5-ad96-4d01eda4e82d",
+    "createdAt": "2026-01-27T20:58:27.785899",
+    "updatedAt": "2026-01-27T20:58:27.785899"
+  },
+  {
+    "hallId": "364c7eaf-3ce7-4d37-afd4-57401fce1dce",
+    "movieId": "8294cb2c-912c-4eae-92e7-f9d659a3ab5b",
+    "managerId": "4aa278ff-b637-4807-a106-358cc8a86787",
+    "price": 10,
+    "startTime": "2026-10-10T15:30:00",
+    "endTime": "2026-10-10T18:30:00",
+    "id": "fe2bce97-a40b-49c2-b46c-b191d3c2644c",
+    "createdAt": "2026-01-27T20:58:40.9256617",
+    "updatedAt": "2026-01-27T20:58:40.9256617"
+  },
+  {
+    "hallId": "8d15bc1c-e11a-4c28-aa8e-03a1c6197bde",
+    "movieId": "2d4cb028-d8ed-46dc-98e6-7cc6ad0fb455",
+    "managerId": "4aa278ff-b637-4807-a106-358cc8a86787",
+    "price": 10,
+    "startTime": "2026-11-07T12:10:00",
+    "endTime": "2026-11-07T14:10:00",
+    "id": "40511532-2b4e-4e1e-8a0b-4bfab40cfac4",
+    "createdAt": "2026-01-27T20:58:55.6157791",
+    "updatedAt": "2026-01-27T20:58:55.6157791"
+  },
+  {
+    "hallId": "4874f751-3db7-413e-9185-65464ba6934d",
+    "movieId": "2d4cb028-d8ed-46dc-98e6-7cc6ad0fb455",
+    "managerId": "4aa278ff-b637-4807-a106-358cc8a86787",
+    "price": 30,
+    "startTime": "2027-12-09T07:30:00",
+    "endTime": "2027-12-09T09:30:00",
+    "id": "fe2ade89-b1ec-4999-b8bf-6796c973a957",
+    "createdAt": "2026-01-27T20:59:16.3054662",
+    "updatedAt": "2026-01-27T20:59:16.3054662"
   }
 ]
